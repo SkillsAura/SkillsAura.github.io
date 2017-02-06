@@ -1,0 +1,48 @@
+{
+    "room": "♫ ArkhamNetwork ♫",
+    "author": "ArhkamBot",
+    "icon": "http://i.imgur.com/afKevUx.png",
+    "css": "https://SkillsAura.github.io/CustomCSS.css",
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": false,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": true,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null,
+        "friend": null,
+        "user": null
+    },
+    "images": {
+        "background": "http://i.imgur.com/HG8mqaM.png",
+        "playback": null,
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null
+    },
+    "autocomplete": [],
+    "emotes": {
+        "izu": "http://i.imgur.com/BE77Gx3.gif",
+    	"thepanda": "http://i.imgur.com/Ty3qYKr.png"
+    }
+}
+
