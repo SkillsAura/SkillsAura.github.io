@@ -1,3 +1,6 @@
+@import url("https://skillsaura.github.io/CustomUsers.css");
+
+
 /*.room-background {
     background: url(http://i.imgur.com/HG8mqaM.png) no-repeat !important;
     width: 500% !important;
@@ -175,12 +178,6 @@ background: #c42e3b;
 #user-lists .list.room .user .icon-grab {
     right: 35px;
 }
- /* Gay Peter Pan */
-#chat-messages .fromID-22954907 .badge-box i,
-#chat-messages .id-22954907 .badge-box i {
-background-image: url(http://i.imgur.com/SPgJXFL.png);
-}
-
     /* Chat Fade */
 
 #chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
