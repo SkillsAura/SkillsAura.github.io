@@ -1,10 +1,10 @@
 @import url("https://skillsaura.github.io/CustomUsers.css");
 
 
-/*.room-background {
-    background: url(http://i.imgur.com/HG8mqaM.png) no-repeat !important;
+.room-background {
+    background: url("http://i.imgur.com/T7mt3uV.jpg") no-repeat !important;
     width: 500% !important;
-    height: 500% !important; */
+    height: 500% !important; 
 }
 #user-lists .list.staff .group {
     background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
