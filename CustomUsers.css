@@ -1,12 +1,13 @@
-
 /* Mǟɖɖɨɛ  */
 #chat-messages .id-5382369 .badge-box i.bdg
 {
         background-image:       url('http://i.imgur.com/JF0P9Pn.png');
         background-size:        cover;
 }
+
  /* Gay Peter Pan */
-#chat-messages .fromID-22954907 .badge-box i,
-#chat-messages .id-22954907 .badge-box i {
-background-image: url(http://i.imgur.com/JjRyGyi.png);
+#chat-messages .id-22954907 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/JjRyGyi.png');
+        background-size:        cover;
 }
