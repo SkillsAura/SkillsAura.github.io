@@ -12,26 +12,26 @@
         background-size:        cover;
 }
 
-
-/* Mass CSS definitions for not using as many repeated css lines */
-/* badges */
-
-/* ArkhamBot 17969387 */
-#chat-messages .fromID-22670452 .badge-box i,
-#chat-messages .id-22670452 .badge-box i,
-
-/* Mass CSS definitions for not using as many repeated css lines */
-/* zoom */
-
-/* ArkhamBot 17969387 */
-#chat-messages .fromID-22670452 .badge-box:hover
-
-/* IMAGE SET ONLY */
-
-/* ArkhamBot 17969387 */
-#chat-messages .fromID-22670452 .badge-box i,
-#chat-messages .id-22670452 .badge-box i {
-    background-image: url('http://i.imgur.com/VV3BBu7.png');
+/* Jøґ∂αη†♄εℙαηḓα */
+#chat-messages .id-22670452 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/VV3BBu7.png');
+        background-size:        cover;
 }
-  
+/* ArkhamBot */
+#chat-messages .id-17969387 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/dgDLC2O.png');
+        background-size:        cover;
+}
+
+/* volcano_girl111x  */
+#chat-messages .id-5759108 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/Wnr0R90.png');
+        background-size:        cover;
+}
+
+
+
 
