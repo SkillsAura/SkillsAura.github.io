@@ -13,24 +13,24 @@
 }
 
 
-/* definiÃ§Ãµes de CSS em massa para nÃ£o usar tanta linha de css repetida */
+/* Mass CSS definitions for not using as many repeated css lines */
 /* badges */
 
 /* ArkhamBot 17969387 */
 #chat-messages .fromID-17969387 .badge-box i,
 #chat-messages  .id-17969387 .badge-box i,
 
-/* definiÃ§Ãµes de CSS em massa para nÃ£o usar tanta linha de css repetida */
+/* Mass CSS definitions for not using as many repeated css lines */
 /* zoom */
 
 /* ArkhamBot 17969387 */
 #chat-messages .fromID-17969387 .badge-box:hove
 
-/* definiÃ§Ã£o DA IMAGEM APENAS */
+/* IMAGE SET ONLY */
 
 /* ArkhamBot 17969387 */
 #chat-messages .fromID-17969387 .badge-box i,
 #chat-messages .id-17969387 .badge-box i {
-    background-image: url(https://s.gravatar.com/avatar/19b22517ecc97ebbcd2b76094d1e12de?s=80);
+    background-image: url('http://i.imgur.com/dgDLC2O.png');
 }
     
