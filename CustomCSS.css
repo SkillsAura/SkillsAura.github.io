@@ -13,7 +13,7 @@
     background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
 }
 #app-header {
-    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
 #store-button {
     background: linear-gradient(to bottom,#FF0000 0,#A00000 100%);
