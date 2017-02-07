@@ -17,21 +17,21 @@
 /* badges */
 
 /* ArkhamBot 17969387 */
-#chat-messages .fromID-17969387 .badge-box i,
-#chat-messages  .id-17969387 .badge-box i,
+#chat-messages .fromID-22670452 .badge-box i,
+#chat-messages .id-22670452 .badge-box i,
 
 /* Mass CSS definitions for not using as many repeated css lines */
 /* zoom */
 
 /* ArkhamBot 17969387 */
-#chat-messages .fromID-17969387 .badge-box:hove
+#chat-messages .fromID-22670452 .badge-box:hove
 
 /* IMAGE SET ONLY */
 
 /* ArkhamBot 17969387 */
-#chat-messages .fromID-17969387 .badge-box i,
-#chat-messages .id-17969387 .badge-box i {
-    background-image: url('http://i.imgur.com/dgDLC2O.png');
+#chat-messages .fromID-22670452 .badge-box i,
+#chat-messages .id-22670452 .badge-box i {
+    background-image: url('http://i.imgur.com/VV3BBu7.png');
 }
   
 
