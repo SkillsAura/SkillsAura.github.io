@@ -1,1 +1,19 @@
-
+padding-top: 50px;
+   }
+.starter-template {
+   padding: 40px 15px;
+   text-align: center;
+   }
+h1 {
+   color: red;
+   font-weight: bold;
+   }
+p {
+  color: white;
+  font-weight: bold;
+  }
+/* h1 .h1carousel{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  } */
