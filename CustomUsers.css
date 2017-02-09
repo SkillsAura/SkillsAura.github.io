@@ -1,0 +1,88 @@
+/* badges */
+
+/* WɪʟᴅFᴏxMᴀɴ [6708885] */
+#chat-messages .fromID-6708885 .badge-box i,
+#chat-messages  .id-6708885 .badge-box i,
+/* Jøґ∂αη†♄εℙαηḓα [22670452] */
+#chat-messages .fromID-22670452 .badge-box i,
+#chat-messages  .id-22670452 .badge-box i,
+/* volcano_girl111x [5759108] */
+#chat-messages .fromID-5759108 .badge-box i,
+#chat-messages  .id-5759108 .badge-box i,
+/* Mǟɖɖɨɛ [5382369] */
+#chat-messages .fromID-5382369 .badge-box i,
+#chat-messages  .id-5382369 .badge-box i,
+/* Gay Peter Pan [22954907] */
+#chat-messages .fromID-22954907 .badge-box i,
+#chat-messages  .id-22954907 .badge-box i,
+/* ArkhamBot [17969387] */
+#chat-messages .fromID-17969387 .badge-box i,
+#chat-messages  .id-17969387 .badge-box i {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+    background-position: initial;
+    background-repeat: no-repeat !important}
+
+/* zoom */
+
+/* WɪʟᴅFᴏxMᴀɴ [6708885] */
+#chat-messages .fromID-6708885 .badge-box:hover,
+#chat-messages .id-6708885 .badge-box:hover,
+/* Jøґ∂αη†♄εℙαηḓα [22670452] */
+#chat-messages .fromID-22670452 .badge-box:hover,
+#chat-messages .id-22670452 .badge-box:hover,
+/* volcano_girl111x [5759108] */
+#chat-messages .fromID-5759108 .badge-box:hover,
+#chat-messages .id-5759108 .badge-box:hover,
+/* Mǟɖɖɨɛ [5382369] */
+#chat-messages .fromID-5382369 .badge-box:hover,
+#chat-messages .id-5382369 .badge-box:hover,
+/* Gay Peter Pan [22954907] */
+#chat-messages .fromID-22954907 .badge-box:hover,
+#chat-messages .id-22954907 .badge-box:hover,
+/* ArkhamBot [17969387] */
+#chat-messages .fromID-17969387 .badge-box:hover,
+#chat-messages  .id-17969387 .badge-box:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s
+}        
+            
+/* Images Area */
+
+/* -WɪʟᴅFᴏxMᴀɴ [6708885] */
+#chat-messages .fromID-6708885 .badge-box i,
+#chat-messages .id-6708885 .badge-box i {
+    background-image: url('http://i.imgur.com/mrGLQgF.png');
+}
+
+/* Jøґ∂αη†♄εℙαηḓα [22670452] */
+#chat-messages .fromID-22670452 .badge-box i,
+#chat-messages .id-22670452 .badge-box i {
+    background-image: url('http://i.imgur.com/VV3BBu7.png');
+}
+/* volcano_girl111x [5759108] */
+#chat-messages .fromID-5759108 .badge-box i,
+#chat-messages .id-5759108 .badge-box i {
+    background-image: url('http://i.imgur.com/Wnr0R90.png');
+}
+/* Mǟɖɖɨɛ [5382369] */
+#chat-messages .fromID-5382369 .badge-box i,
+#chat-messages .id-5382369 .badge-box i {
+    background-image: url('http://i.imgur.com/JF0P9Pn.png');
+}
+/* Gay Peter Pan [22954907] */
+#chat-messages .fromID-22954907 .badge-box i,
+#chat-messages .id-22954907 .badge-box i {
+    background-image: url('http://i.imgur.com/JjRyGyi.png');
+}
+/* ArkhamBot [17969387] */
+#chat-messages .fromID-17969387 .badge-box i,
+#chat-messages .id-17969387 .badge-box i {
+    background-image: url('http://i.imgur.com/dgDLC2O.png');
+}
