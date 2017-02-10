@@ -1,8 +1,9 @@
 {
     "room": "♫ ArkhamNetwork ♫",
     "author": "ArhkamBot",
-    "icon": "http://i.imgur.com/afKevUx.png",
-    "css": "https://SkillsAura.github.io/CustomCSS.css",
+    "icon": "http://i.imgur.com/pp5bhiz.png",
+    "css": "https://jordan84792.github.io/PlugDJ.css",
+    
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
@@ -13,6 +14,7 @@
         "allowShowingMehs": true,
         "forceSmartVote": false
     },
+    
     "ccc": {
         "admin": null,
         "ambassador": null,
@@ -26,26 +28,26 @@
         "friend": null,
         "user": null
     },
+    
     "images": {
-        "background": "http://i.imgur.com/EFXFnql.png",
+        "background": "http://i.imgur.com/NiPFlys.png",
         "playback": null,
         "admin": null,
         "ambassador": null,
-        "host": "http://i.imgur.com/gSZACi4.png",
+        "host": "http://i.imgur.com/wnDrBL6.png",
         "cohost": "http://i.imgur.com/pjmUnwA.png",
-        "manager": "http://i.imgur.com/gk3TEIy.png",
-        "bouncer": "http://i.imgur.com/mVqH5OO.png",
-        "rdj": "http://i.imgur.com/jq3YN1m.png",
-        "subscriber": "http://i.imgur.com/bCksKZI.png",
+        "manager": "http://i.imgur.com/6MfwWsg.png",
+        "bouncer": "http://i.imgur.com/jAXifWz.png",
+        "rdj": "http://i.imgur.com/Qs9vuFU.png",
+        "subscriber": "http://i.imgur.com/ax01SeU.png",
         "silversubscriber": null
     },
     "autocomplete": [],
     "emotes": {
-    	"thepanda": "http://i.imgur.com/Ty3qYKr.png",
-        "cano": "http://i.imgur.com/ELKqODL.png",
-        "foxato": "http://i.imgur.com/UGdHndi.png",
-        "jax": "http://i.imgur.com/SPgJXFL.png",
-        "maddietriggered": "http://i.imgur.com/RyKhY5C.gif"
-     
+        "thepanda": "http://i.imgur.com/Qtb04lx.png",
+        "cano": "http://i.imgur.com/Y60lO61.png",
+        "foxato": "http://i.imgur.com/6RUw4wc.png",
+        "jax": "http://i.imgur.com/6UAva7q.png",
+        "maddietriggered": "http://i.imgur.com/NzFSjbK.gif"
     }
 }
