@@ -6,12 +6,12 @@
 
 /* Arkhambot */
 #chat [data-cid^="17969387-"] span.un.clickable {
-    color: color: rgba(243, 23, 45) !important;}
+    color: color: rgba(139,0,0, 1) !important;}
 #chat [data-cid^="17969387-"].emote {
-    background: color: rgba(243, 23, 45, 1) !important;
-    border-left: rgba(243, 23, 45, 1) !important; 3px solid !important;}
+    background: color: rgba(139,0,0, 1) !important;
+    border-left: rgba(139,0,0, 1) !important; 3px solid !important;}
 #chat [data-cid^="17969387-"].emote .text {
-    color: rgba(243, 23, 45, 1) !important;
+    color: rgba(139,0,0, 1) !important;
     font-style: normal;
     font-weight: bold;
 }
