@@ -57,6 +57,7 @@ i.icon.icon-room {
 
 .app-header{
     background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
+    border: 1px solid black;
 }
 #rs-skip-button {
    background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%) !important;
