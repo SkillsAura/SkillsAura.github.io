@@ -4,6 +4,21 @@
 
 /* ------------------------------ Interface ------------------------------ */
 
+/* Arkhambot */
+#chat [data-cid^="17969387-"] span.un.clickable {
+    color: color: rgba(255, 255, 0) !important;}
+#chat [data-cid^="17969387-"].emote {
+    background: color: rgba(255, 255, 0) !important;
+    border-left: rgba(255, 255, 0) !important; 3px solid !important;}
+#chat [data-cid^="17969387-"].emote .timestamp {
+    color: rgba(255, 255, 0) !important;}
+#chat [data-cid^="17969387-"].emote .text {
+    color: rgba(255, 255, 0) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
 /* Room Icons */
 /*.icon { background-image: url(https://cdn.tfs-network.com/plug/img/icons.png)} */
 
