@@ -1,4 +1,118 @@
 @import url("https://skillsaura.github.io/CustomUsers.css");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Squada+One");
 
-/* -------------------- Interface -------------------- */
+/* ------------------------------ Interface ------------------------------ */
 
+/* Room Icons */
+/*.icon { background-image: url(https://cdn.tfs-network.com/plug/img/icons.png)} */
+
+/* Room Icon */
+
+#room-host,
+#room-name {
+    left: 105px;
+}
+#room-bar .icon-room {
+    top: 6px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 130px;
+    height: 40px;
+}
+.icon-room {
+   background: url(http://i.imgur.com/U5f0EUR.png) no-repeat;
+   width: 0px;
+   height: 0px;
+   background-size: 65%;
+ }
+
+/* Room Name | Hosted By */
+
+#room-bar * {
+    font-weight: lighter!important
+}
+#room-bar span {
+    font-size: 20px!important
+}
+#room-bar:hover>#room-name,
+#room-bar>#room-host {
+    opacity: 0!important;
+    transition: opacity .25s!important
+}
+#room-bar:hover>#room-host,
+#room-bar>#room-name {
+    opacity: 1!important;
+    transition: opacity .25s!important;
+    transition-delay: .25s!important
+}
+#room-bar>#room-name {
+    margin-top: 7px!important
+}
+#room-bar>#room-host {
+    margin-top: -15px!important
+}
+/* App-Header */
+
+.app-header{
+    background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
+}
+#rs-skip-button {
+   background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%) !important;
+}
+
+#history-button{
+   background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
+}
+#chat-button{
+   background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
+}
+#app-menu.in-room{
+   background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);  
+}
+.button{
+  background: none !important;
+}
+
+/* App Header Text */
+
+#room-name .bar-value {
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;} 
+
+/* Chat */
+
+#room .app-right {
+   background: linear-gradient(to bottom, rgba(53,6,8,.5) 0, rgba(53,6,8,.5) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#room .app-right .cm.log {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#room .app-right .cm.message {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#room .app-right .cm.moderation {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#msg {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#chat-input {
+    border-radius: 25px;
+    background: rgba(53,6,8,1) !important; 
+    width: 300x;
+    height: 30px;         
+}
+
+/* Footer */
+
+#footer {
+  background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%)!important;
+}
