@@ -1,5 +1,7 @@
 /* badges */
-
+/* samanthalolz  [13490395] */
+#chat-messages .fromID-13490395 .badge-box i,
+#chat-messages  .id-13490395 .badge-box i,
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages  .id-18182332 .badge-box i,
@@ -33,6 +35,11 @@
        
 /* Images Area */
 
+/* samanthalolz  [13490395] */
+#chat-messages .fromID-13490395 .badge-box i,
+#chat-messages .id-13490395 .badge-box i {
+    background-image: url(http://i.imgur.com/mtfhebO.jpg);
+}
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages .id-18182332 .badge-box i {
