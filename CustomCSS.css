@@ -141,10 +141,4 @@ i.icon.icon-room {
 #playlist-button {
     background: linear-gradient(to bottom, rgba(232,61,5,1) 0, rgba(215,118,37,1) 100%)!important;
 }
-.badge.button{
-    border-left: 1px solid black !important;
-}
-.settings.button{
-    border-left: 1px solid black !important;
-}
     
