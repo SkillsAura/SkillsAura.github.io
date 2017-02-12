@@ -1,4 +1,5 @@
 @import url("https://skillsaura.github.io/CustomUsers.css");
+@import url("https://skillsaura.github.io/CustomCSSstaff.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 @import url("https://fonts.googleapis.com/css?family=Squada+One");
 
@@ -92,7 +93,7 @@ i.icon.icon-room {
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;} 
 #room-host .username {
-    color: white:
+    color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;}
 
@@ -127,6 +128,12 @@ i.icon.icon-room {
    background: -moz-linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* For Firefox 3.6 to 15 */
    background: linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* Standard syntax */
 }
+
+/* Footer */
+#footer {
+  background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%)!important;
+}
+
 #chat-input,
 #import-youtube .button,
 #import-youtube .youtube-input,
@@ -178,11 +185,11 @@ i.icon.icon-room {
         transform: scale(1);
     }
 }
-
-
-/* Footer */
-#footer {
-  background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%)!important;
+#chat-input {
+    border-radius: 25px;
+    background: rgba(53,6,8,1) !important; 
+    width: 325px;
+    height: 30px;         
 }
 
 /* Scrollbars */
@@ -205,4 +212,7 @@ i.icon.icon-room {
     background: rgba(152, 0, 0, 1);
     box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
     border-radius: 5px
+}
+#playlist-button {
+    background: linear-gradient(to bottom, rgba(232,61,5,1) 0, rgba(215,118,37,1) 100%)!important;
 }

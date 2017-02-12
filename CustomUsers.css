@@ -1,5 +1,10 @@
 /* badges */
-
+/* samanthalolz  [13490395] */
+#chat-messages .fromID-13490395 .badge-box i,
+#chat-messages  .id-13490395 .badge-box i,
+/* Skorpion9001 [18182332] */
+#chat-messages .fromID-18182332 .badge-box i,
+#chat-messages  .id-18182332 .badge-box i,
 /* WɪʟᴅFᴏxMᴀɴ [6708885] */
 #chat-messages .fromID-6708885 .badge-box i,
 #chat-messages  .id-6708885 .badge-box i,
@@ -30,6 +35,16 @@
        
 /* Images Area */
 
+/* samanthalolz  [13490395] */
+#chat-messages .fromID-13490395 .badge-box i,
+#chat-messages .id-13490395 .badge-box i {
+    background-image: url(http://i.imgur.com/mtfhebO.jpg);
+}
+/* Skorpion9001 [18182332] */
+#chat-messages .fromID-18182332 .badge-box i,
+#chat-messages .id-18182332 .badge-box i {
+    background-image: url(http://i.imgur.com/GbN3VPK.png);
+}
 /* -WɪʟᴅFᴏxMᴀɴ [6708885] */
 #chat-messages .fromID-6708885 .badge-box i,
 #chat-messages .id-6708885 .badge-box i {
