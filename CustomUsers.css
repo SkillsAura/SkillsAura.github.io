@@ -1,5 +1,8 @@
 /* badges */
-
+/* KaosBass [6068715] */
+#chat-messages .fromID-6068715 .badge-box i,
+#chat-messages  .id-6068715 .badge-box i,
+#user-rollover.id-6068715 .badge-box > i.bdg,
 /* |V|cNerdx [5676670] */
 #chat-messages .fromID-5676670 .badge-box i,
 #chat-messages  .id-5676670 .badge-box i,
@@ -52,7 +55,12 @@
 }
        
 /* Images Area */
-
+/* KaosBass [6068715] */
+#user-rollover.id-6068715 .badge-box > i.bdg,
+#chat-messages .fromID-6068715 .badge-box i,
+#chat-messages .id-6068715 .badge-box i {
+    background-image: url(http://i.imgur.com/xmMuxVo.png);
+}
 /* |V|cNerdx [5676670] */
 #user-rollover.id-5676670 .badge-box > i.bdg,
 #chat-messages .fromID-5676670 .badge-box i,
