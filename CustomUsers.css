@@ -76,3 +76,12 @@
 #chat-messages .id-17969387 .badge-box i {
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
+
+/* Custom Icon for event Winners */
+
+.cm.id-22670452 .from .un.clickable:before {
+    content: url("http://i.imgur.com/7IS25nR.png") !important;
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
