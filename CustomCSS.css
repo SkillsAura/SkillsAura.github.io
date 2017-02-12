@@ -84,6 +84,9 @@ i.icon.icon-room {
 .button{
   background: none !important;
 }
+#rcs-progress-container{
+    background: none !important;
+}
 
 #rcs-progress-container .bar {
     background: linear-gradient(to right, rgba(232,61,5,1) 0, rgba(215,118,37,1) 100%)!important;
