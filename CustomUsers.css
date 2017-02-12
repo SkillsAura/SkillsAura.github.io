@@ -152,3 +152,12 @@
 .cm.id-5676670 .from .icon-chat-dj {
     margin-left: 16px
 }
+/*  KaosBass [6068715] */
+.cm.id-6137690 .from .icon-chat-dj:before {
+    content: url("#") !important;
+    right: 17px;
+    position: absolute;
+}
+.cm.id-6137690 .from .icon-chat-dj {
+    margin-left: 16px
+}
