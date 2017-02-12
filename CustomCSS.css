@@ -127,14 +127,82 @@ i.icon.icon-room {
    background: -moz-linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* For Firefox 3.6 to 15 */
    background: linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* Standard syntax */
 }
-#chat-input {
-    border-radius: 25px;
-    background: rgba(53,6,8,1) !important; 
-    width: 300x;
-    height: 30px;         
+#chat-input,
+#import-youtube .button,
+#import-youtube .youtube-input,
+#input-room-name,
+#playlist-import-panel .button,
+#room-info .input-background,
+#user-avatars .tab-menu button,
+#user-friends .list .row .buttons button,
+#user-friends .search,
+#user-friends .tab-menu button,
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+.dialog-input-background,
+.input-background,
+.tab-menu button,
+.user-content.profile .meta .blurb .box,
+.user-content.profile .meta .blurb input {
+    border-radius: 30px;
+    background: rgba(53,6,8,1) !important;
 }
+
+/* Remove badge background */
+.badge-box {
+    background: transparent !important;
+}
+
+/* Vote Buttons */
+#grab-rs,
+#meh-rs,
+#woot-rs {
+    top: -1px;
+    background: hsla(210, 10%, 5%, .8);
+    box-shadow: 0 0 10px #000;
+    z-index: 0
+}
+#woot.selected .icon,
+#grab.selected .icon,
+#meh.selected .icon {
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 /* Footer */
 #footer {
   background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%)!important;
+}
+
+/* Scrollbars */
+#chat-messages::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar {
+    width: 7px!important;
+    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .7)
+}
+#chat-messages::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+.jspDrag {
+    background: rgba(152, 0, 0, 1);
+    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
+    border-radius: 5px
 }
