@@ -57,8 +57,8 @@ i.icon.icon-room {
 #room-bar>#room-host {
     margin-top: -15px!important
 }
-/* App-Header */
 
+/* App-Header */
 .app-header{
     background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
 }
@@ -161,7 +161,12 @@ i.icon.icon-room {
     top: -1px;
     background: hsla(210, 10%, 5%, .8);
     box-shadow: 0 0 10px #000;
-    z-index: 0
+    z-index: 0;
+    -webkit-animation: fadein .25s;
+    -moz-animation: fadein .25s;
+    -ms-animation: fadein .25s;
+    -o-animation: fadein .25s;
+    animation: fadein .5s
 }
 #woot.selected .icon,
 #grab.selected .icon,
