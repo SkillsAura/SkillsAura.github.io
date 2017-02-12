@@ -77,17 +77,24 @@
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
 
-/* Mr. Roboto Custom Icon */
-.cm.id-22670452 .from .un.clickable:before {
-    content: url("http://i.imgur.com/7IS25nR.png") !important;
+/* Custom Icon for event Winners */
+
+/* Mr. Roboto | TFS Nᵉᵗʷᵒʳᵏ [6137690] */
+.cm.id-6137690 .from .un.clickable:before {
+    content: url("#") !important;
     top: 3px;
     right: 3px;
     position: relative;
 }
-
-/* Custom Icon for event Winners */
-
+/* Jøґ∂αη†♄εℙαηḓα [22670452] */
 .cm.id-22670452 .from .un.clickable:before {
+    content: url("#") !important;
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
+/* |V|cNerdx [5676670] */
+.cm.id-5676670 .from .un.clickable:before {
     content: url("http://i.imgur.com/7IS25nR.png") !important;
     top: 3px;
     right: 3px;
