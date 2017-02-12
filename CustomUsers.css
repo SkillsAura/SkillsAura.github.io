@@ -1,48 +1,48 @@
 /* badges */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-#chat-messages .fromID-22670452.badge-box i,
-#chat-messages .id-22670452.badge-box i,
-#user-rollover .id-22670452.badge-box > i.bdg,
+#chat-messages .fromID-22670452 .badge-box i,
+#chat-messages .id-22670452 .badge-box i,
+#user-rollover.id-22670452 .badge-box > i.bdg,
 /* KaosBass [6068715] */
 #chat-messages .fromID-6068715 .badge-box i,
 #chat-messages .id-6068715 .badge-box i,
-#user-rollover .id-6068715 .badge-box > i.bdg,
+#user-rollover.id-6068715 .badge-box > i.bdg,
 /* |V|cNerdx [5676670] */
 #chat-messages .fromID-5676670 .badge-box i,
 #chat-messages .id-5676670 .badge-box i,
-#user-rollover .id-5676670 .badge-box > i.bdg,
+#user-rollover.id-5676670 .badge-box > i.bdg,
 /* samanthalolz  [13490395] */
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i,
-#user-rollover .id-13490395 .badge-box > i.bdg,
+#user-rollover.id-13490395 .badge-box > i.bdg,
 /* Smash|smashbro12 [8452233] */
 #chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i,
-#user-rollover .id-8452233 .badge-box > i.bdg,
+#user-rollover.id-8452233 .badge-box > i.bdg,
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages .id-18182332 .badge-box i,
-#user-rollover .id-18182332 .badge-box > i.bdg,
+#user-rollover.id-18182332 .badge-box > i.bdg,
 /* WɪʟᴅFᴏxMᴀɴ [6708885] */
 #chat-messages .fromID-6708885 .badge-box i,
 #chat-messages .id-6708885 .badge-box i,
-#user-rollover .id-6708885 .badge-box > i.bdg,
+#user-rollover.id-6708885 .badge-box > i.bdg,
 /* volcano_girl111x [5759108] */
 #chat-messages .fromID-5759108 .badge-box i,
 #chat-messages .id-5759108 .badge-box i,
-#user-rollover .id-5759108 .badge-box > i.bdg,
+#user-rollover.id-5759108 .badge-box > i.bdg,
 /* Mǟɖɖɨɛ [5382369] */
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
-#user-rollover .id-5382369 .badge-box > i.bdg,
+#user-rollover.id-5382369 .badge-box > i.bdg,
 /* Gay Peter Pan [22954907] */
 #chat-messages .fromID-22954907 .badge-box i,
 #chat-messages  .id-22954907 .badge-box i,
-#user-rollover .id-22954907 .badge-box > i.bdg,
+#user-rollover.id-22954907 .badge-box > i.bdg,
 /* ArkhamBot [17969387] */
 #chat-messages .fromID-17969387 .badge-box i,
 #chat-messages .id-17969387 .badge-box i,
-#user-rollover .id-17969387 .badge-box > i.bdg {
+#user-rollover.id-17969387 .badge-box > i.bdg {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -57,32 +57,32 @@
 /* Images Area */
 
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-#user-rollover .id-22670452.badge-box > i.bdg,
+#user-rollover.id-22670452 .badge-box > i.bdg,
 #chat-messages .fromID-22670452.badge-box i,
 #chat-messages .id-22670452.badge-box i {
     background-image: url(http://i.imgur.com/3E9dL4M.png);
 }
 /* KaosBass [6068715] */
-#user-rollover .id-6068715 .badge-box > i.bdg,
+#user-rollover.id-6068715 .badge-box > i.bdg,
 #chat-messages .fromID-6068715 .badge-box i,
 #chat-messages .id-6068715 .badge-box i {
     background-image: url(http://i.imgur.com/xmMuxVo.png);
 }
 /* |V|cNerdx [5676670] */
-#user-rollover .id-5676670 .badge-box > i.bdg,
+#user-rollover.id-5676670 .badge-box > i.bdg,
 #chat-messages .fromID-5676670 .badge-box i,
 #chat-messages .id-5676670 .badge-box i {
     background-image: url(http://i.imgur.com/kdIuFtb.png);
 }
 /* samanthalolz  [13490395] */
-#user-rollover .id-13490395 .badge-box > i.bdg,
+#user-rollover.id-13490395 .badge-box > i.bdg,
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i {
     background-image: url(http://i.imgur.com/mtfhebO.jpg);
 }
 /* Smash|smashbro12 [8452233] */
 
-#chat-messages .fromID-8452233 .badge-box i,
+#chat-messages.fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i ,
 #user-rollover .id-8452233 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/vWJGA4I.png);
@@ -90,37 +90,37 @@
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages .id-18182332 .badge-box i,
-#user-rollover .id-18182332 .badge-box > i.bdg {
+#user-rollover.id-18182332 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/GbN3VPK.png);
 }
 /* -WɪʟᴅFᴏxMᴀɴ [6708885] */
 #chat-messages .fromID-6708885 .badge-box i,
 #chat-messages .id-6708885 .badge-box i,
-#user-rollover .id-6708885 .badge-box > i.bdg {
+#user-rollover.id-6708885 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/GgkgD4p.png);
 }
 /* volcano_girl111x [5759108] */
 #chat-messages .fromID-5759108 .badge-box i,
 #chat-messages .id-5759108 .badge-box i,
-#user-rollover .id-5759108 .badge-box > i.bdg {
+#user-rollover.id-5759108 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/eTg1nWK.png);
 }
 /* Mǟɖɖɨɛ [5382369] */
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
-#user-rollover .id-5382369 .badge-box > i.bdg {
+#user-rollover.id-5382369 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/LdVHyDL.jpg);
 }
 /* Gay Peter Pan [22954907] */
 #chat-messages .fromID-22954907 .badge-box i,
 #chat-messages .id-22954907 .badge-box i, 
-#user-rollover .id-22954907 .badge-box > i.bdg {
+#user-rollover.id-22954907 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/dtTGOx7.png);
 }
 /* ArkhamBot [17969387] */
 #chat-messages .fromID-17969387 .badge-box i,
 #chat-messages .id-17969387 .badge-box i,
-#user-rollover .id-17969387 .badge-box > i.bdg {
+#user-rollover.id-17969387 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
 
