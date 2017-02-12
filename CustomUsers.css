@@ -153,8 +153,9 @@
     margin-left: 16px
 }
 /*  KaosBass [6068715] */
-.cm.id-6068715 .from .icon-chat-dj:before {
+.cm.id-6068715 .from .un.clickable:before {
     content: url("https://raw.githubusercontent.com/Plug-It/pi/master/images/chat/rank_dev.png") !important;
+    top: 3px;
     right: 3px;
-    position: absolute;
+    position: relative;
 }
