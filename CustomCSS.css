@@ -40,13 +40,13 @@ i.icon.icon-room {
 #room-bar span {
     font-size: 20px!important
 }
-#room-bar:hover>#room-name,
-#room-bar>#room-host {
+#room-bar:hover>#room-host,
+#room-bar>#room-name {
     opacity: 0!important;
     transition: opacity .25s!important
 }
-#room-bar:hover>#room-host,
-#room-bar>#room-name {
+#room-bar:hover>#room-name,
+#room-bar>#room-host {
     opacity: 1!important;
     transition: opacity .25s!important;
     transition-delay: .25s!important
