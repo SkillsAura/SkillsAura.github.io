@@ -1,9 +1,9 @@
-.cm .message .role-manager span.un.clickable {
+.cm  .role-manager span.un.clickable {
     color: color: rgba(100, 246, 133, 1) !important;}
-.cm .message .role-manager .emote {
+.cm  .role-manager .emote {
     background: color: rgba(100, 246, 133, 1) !important;
     border-left: rgba(100, 246, 133, 1) 3px solid !important;}
-.cm .message .role-manager .emote .text {
+.cm .role-manager .emote .text {
     color: rgba(100, 246, 133, 1) !important;
     font-style: normal;
     font-weight: bold;
