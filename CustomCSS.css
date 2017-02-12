@@ -245,7 +245,7 @@ i.icon.icon-room {
 }
 #dj-button,
 #dj-button.is-leave {
-    border-radius: 50px 0px 0px 50px;;
+    border-radius: 100px;
     background: linear-gradient(to top, #3A3A3A, rgba(34, 34, 34, 1) 100%)
 }
 #dj-button .left {
