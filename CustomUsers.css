@@ -6,6 +6,9 @@
 /* samanthalolz  [13490395] */
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages  .id-13490395 .badge-box i,
+/* Smash|smashbro12 [8452233] */
+#chat-messages .fromID-8452233 .badge-box i,
+#chat-messages  .id-8452233 .badge-box i,
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages  .id-18182332 .badge-box i,
@@ -48,6 +51,11 @@
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i {
     background-image: url(http://i.imgur.com/mtfhebO.jpg);
+}
+/* Smash|smashbro12 [8452233] */
+#chat-messages .fromID-8452233 .badge-box i,
+#chat-messages .id-8452233 .badge-box i {
+    background-image: url(http://i.imgur.com/vWJGA4I.png);
 }
 /* Skorpion9001 [18182332] */
 #chat-messages .fromID-18182332 .badge-box i,
