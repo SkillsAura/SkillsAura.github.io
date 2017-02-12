@@ -1,3 +1,34 @@
+#chat .role-manager span.un.clickable {
+    color: color: rgba(100, 246, 133, 1) !important;}
+#chat .role-manager .emote {
+    background: color: rgba(100, 246, 133, 1) !important;
+    border-left: rgba(100, 246, 133, 1) 3px solid !important;}
+#chat .role-manager .emote .text {
+    color: rgba(100, 246, 133, 1) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+#chat .role-bouncer span.un.clickable {
+    color: color: rgba(100, 246, 133, 1) !important;}
+#chat .role-bouncer .emote {
+    background: color: rgba(100, 246, 133, 1) !important;
+    border-left: rgba(100, 246, 133, 1) !important; 3px solid !important;}
+#chat .role-bouncer.emote .text {
+    color: rgba(100, 246, 133, 1) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+#chat .role-host span.un.clickable {
+    color: color: rgba(100, 246, 133, 1) !important;}
+#chat .role-host.emote {
+    background: color: rgba(100, 246, 133, 1) !important;
+    border-left: rgba(100, 246, 133, 1) !important; 3px solid !important;}
+#chat .role-host .emote .text {
+    color: rgba(100, 246, 133, 1) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
 /* Arkhambot [17969387] */
 #chat [data-cid^="17969387-"] span.un.clickable {
     color: color: rgba(100, 246, 133, 1) !important;}
