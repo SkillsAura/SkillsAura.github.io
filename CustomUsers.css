@@ -77,6 +77,14 @@
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
 
+/* Mr. Roboto Custom Icon */
+.cm.id-22670452 .from .un.clickable:before {
+    content: url("http://i.imgur.com/7IS25nR.png") !important;
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
+
 /* Custom Icon for event Winners */
 
 .cm.id-22670452 .from .un.clickable:before {
