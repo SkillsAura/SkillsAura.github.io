@@ -64,6 +64,8 @@ i.icon.icon-room {
 }
 #rs-skip-button {
    background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%) !important;
+   border-right: 1px solid #000000;
+   border-left: 1px solid #000000;
 }
 
 #history-button{
