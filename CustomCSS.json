@@ -30,7 +30,7 @@
     },
     
     "images": {
-        "background": "http://i.imgur.com/NiPFlys.png",
+        "background": null,
         "playback": null,
         "admin": null,
         "ambassador": null,
