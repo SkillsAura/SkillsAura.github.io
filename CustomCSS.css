@@ -98,6 +98,7 @@ i.icon.icon-room {
     color: white:
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;}
+}
 
 /* Chat */
 #room .app-right {
@@ -146,7 +147,9 @@ i.icon.icon-room {
 .input-background,
 .tab-menu button,
 .user-content.profile .meta .blurb .box,
-.user-content.profile .meta .blurb input {
+.user-content.profile .meta .blurb input,
+#filter-bar,
+#search-bar {
     border-radius: 30px;
     background: rgba(53,6,8,1) !important;
 }
@@ -270,6 +273,9 @@ i.icon.icon-room {
 }
 #playlist-menu {
     background: rgba(53,6,8,.8);
+}
+#search {
+   background: rgba(53,6,8,.8);
 }
 
 /* Footer */
