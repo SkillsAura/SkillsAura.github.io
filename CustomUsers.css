@@ -97,23 +97,29 @@
 /* Custom Icon for event Winners */
 
 /* Mr. Roboto | TFS Nᵉᵗʷᵒʳᵏ [6137690] */
-.cm.id-6137690 .from .un.clickable:before {
+.cm.id-6137690 .from .icon-chat-dj:before {
     content: url("http://i.imgur.com/fmkQHcL.png") !important;
-    top: 3px;
-    right: 3px;
-    position: relative;
+    right: 17px;
+    position: absolute;
+}
+.cm.id-6137690 .from .icon-chat-dj {
+    margin-left: 16px
 }
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-.cm.id-22670452 .from .un.clickable:before {
+.cm.id-22670452 .from .icon-chat-dj:before {
     content: url("http://i.imgur.com/fmkQHcL.png") !important;
-    top: 3px;
-    right: 3px;
-    position: relative;
+    right: 17px;
+    position: absolute;
+}
+.cm.id-22670452 .from .icon-chat-dj {
+    margin-left: 16px
 }
 /* |V|cNerdx [5676670] */
-.cm.id-5676670 .from .un.clickable:before {
+.cm.id-5676670 .from .icon-chat-dj:before {
     content: url("http://i.imgur.com/7IS25nR.png") !important;
-    top: 3px;
-    right: 3px;
-    position: relative;
+    right: 17px;
+    position: absolute;
+}
+.cm.id-5676670 .from .icon-chat-dj {
+    margin-left: 16px
 }
