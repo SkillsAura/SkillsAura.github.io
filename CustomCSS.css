@@ -1,21 +1,9 @@
 @import url("https://skillsaura.github.io/CustomUsers.css");
+@import url("https://skillsaura.github.io/CustomCSSstaff.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 @import url("https://fonts.googleapis.com/css?family=Squada+One");
 
 /* ------------------------------ Interface ------------------------------ */
-
-/* Arkhambot */
-#chat [data-cid^="17969387-"] span.un.clickable {
-    color: color: rgba(100, 246, 133, 1) !important;}
-#chat [data-cid^="17969387-"].emote {
-    background: color: rgba(100, 246, 133, 1) !important;
-    border-left: rgba(100, 246, 133, 1) !important; 3px solid !important;}
-#chat [data-cid^="17969387-"].emote .text {
-    color: rgba(100, 246, 133, 1) !important;
-    font-style: normal;
-    font-weight: bold;
-}
-
 
 /* Room Icons */
 /*.icon { background-image: url(https://cdn.tfs-network.com/plug/img/icons.png)} */
