@@ -1,4 +1,8 @@
 /* badges */
+
+/* |V|cNerdx [5676670] */
+#chat-messages .fromID-5676670 .badge-box i,
+#chat-messages  .id-5676670 .badge-box i,
 /* samanthalolz  [13490395] */
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages  .id-13490395 .badge-box i,
@@ -35,6 +39,11 @@
        
 /* Images Area */
 
+/* |V|cNerdx [5676670] */
+#chat-messages .fromID-5676670 .badge-box i,
+#chat-messages .id-5676670 .badge-box i {
+    background-image: url(#);
+}
 /* samanthalolz  [13490395] */
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i {
