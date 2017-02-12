@@ -5,6 +5,9 @@
 
 /* ------------------------------ Interface ------------------------------ */
 
+#app-menu.in-room .icon.icon-site-logo {
+    background-image: url (http://i.imgur.com/FVLi6iF.gif) !important;
+}
 /* Room Icons */
 /*.icon { background-image: url(https://cdn.tfs-network.com/plug/img/icons.png)} */
 
