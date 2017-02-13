@@ -134,6 +134,14 @@ i.icon.icon-room {
    background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
    url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
+#room .app-right .cm.moderation {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
+#room .app-right .cm.user-action {
+   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
+   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
 #msg {
    background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
    url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
