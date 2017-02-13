@@ -73,7 +73,7 @@ i.icon.icon-room {
    border-left: 1px solid black;
    border-right: 1px solid black;
 }
-#chat-button{
+#chat-button.header-panel-button{
    background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
    border-left: 1px solid black;
    border-right: 1px solid black;
