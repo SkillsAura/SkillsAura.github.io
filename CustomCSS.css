@@ -126,19 +126,19 @@ i.icon.icon-room {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
 } 
 #room-host .dark-label {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
 } 
 #room-host .username {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
 }
 
 
@@ -356,13 +356,13 @@ i.icon.icon-room {
     color: white;
     font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
 }
 #your-active-playlist span{
     color: white;
     font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    text-shadow: 1px 1px 2px black, 0 0 50px orange, 0 0 10px darkorange;
 }
 
 /* Scrollbars */
