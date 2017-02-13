@@ -349,7 +349,10 @@ i.icon.icon-room {
 
 /* Footer Text */
 
-#your-next-media.section.bar-value {
+#your-next-media span{
+    text-shadow: 0 0 20px #FF0000;
+}
+#your-active-playlist span{
     text-shadow: 0 0 20px #FF0000;
 }
 
