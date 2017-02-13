@@ -57,32 +57,32 @@
 /* Images Area */
 
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-#user-rollover.id-22670452 .badge-box > i.bdg,
 #chat-messages .fromID-22670452 .badge-box i,
-#chat-messages .id-22670452 .badge-box i {
+#chat-messages .id-22670452 .badge-box i,
+#user-rollover.id-22670452 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/3E9dL4M.png);
 }
 /* KaosBass [6068715] */
-#user-rollover.id-6068715 .badge-box > i.bdg,
 #chat-messages .fromID-6068715 .badge-box i,
-#chat-messages .id-6068715 .badge-box i {
+#chat-messages .id-6068715 .badge-box i,
+#user-rollover.id-6068715 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/xmMuxVo.png);
 }
 /* |V|cNerdx [5676670] */
-#user-rollover.id-5676670 .badge-box > i.bdg,
 #chat-messages .fromID-5676670 .badge-box i,
-#chat-messages .id-5676670 .badge-box i {
+#chat-messages .id-5676670 .badge-box i,
+#user-rollover.id-5676670 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/kdIuFtb.png);
 }
 /* samanthalolz  [13490395] */
-#user-rollover.id-13490395 .badge-box > i.bdg,
 #chat-messages .fromID-13490395 .badge-box i,
-#chat-messages .id-13490395 .badge-box i {
+#chat-messages .id-13490395 .badge-box i,
+#user-rollover.id-13490395 .badge-box > i.bdg 
     background-image: url(http://i.imgur.com/mtfhebO.jpg);
 }
 /* Smash|smashbro12 [8452233] */
 
-#chat-messages.fromID-8452233 .badge-box i,
+#chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i ,
 #user-rollover .id-8452233 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/vWJGA4I.png);
