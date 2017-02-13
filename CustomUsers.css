@@ -124,3 +124,7 @@
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
 
+.badge-box.no-badge.clickable.i {
+     background: url(http://i.imgur.com/i9Gk5FF.png) !important;
+}
+
