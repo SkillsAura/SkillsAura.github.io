@@ -351,12 +351,12 @@ i.icon.icon-room {
 
 #your-next-media span{
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
 }
 #your-active-playlist span{
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
 }
 
