@@ -84,7 +84,7 @@
 
 #chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i ,
-#user-rollover .id-8452233 .badge-box > i.bdg {
+#user-rollover.id-8452233 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/vWJGA4I.png);
 }
 /* Skorpion9001 [18182332] */
