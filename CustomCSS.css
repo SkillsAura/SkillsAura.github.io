@@ -126,16 +126,19 @@ i.icon.icon-room {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
 } 
 #room-host .dark-label {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
 } 
 #room-host .username {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
 }
 
 
@@ -353,13 +356,13 @@ i.icon.icon-room {
     color: white;
     font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
 }
 #your-active-playlist span{
     color: white;
     font-weight: lighter;
     font-family: 'Orbitron', Orbitron-Regular;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
 }
 
 /* Scrollbars */
