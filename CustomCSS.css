@@ -205,8 +205,7 @@ i.icon.icon-room {
 }
 #woot.selected .icon,
 #grab.selected .icon,
-#meh.selected .icon ,
-{
+#meh.selected .icon {
     animation: pulse 1s ease infinite;
 }
 @keyframes pulse {
