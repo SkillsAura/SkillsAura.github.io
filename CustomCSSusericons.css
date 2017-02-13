@@ -83,8 +83,9 @@
     margin-left: 16px
 }
 /*  KaosBass [6068715] */
-.cm.id-6068715 .from .icon-chat-dj:before {
+.cm.id-6068715 .from .un.clickable:before {
     content: url("http://http://i.imgur.com/P3X1YFk.png") !important;
-    right: 21px;
+    top: 3px;
+    right: 3px;
     position: absolute;
 }
