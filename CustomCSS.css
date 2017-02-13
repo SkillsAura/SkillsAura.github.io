@@ -137,7 +137,7 @@ i.icon.icon-room {
 /* Now playing song | Now playing DJ text edit */
 
 #now-playing-bar > #now-playing-media {
-   display: inline-block;
+  display: inline-block;
   box-sizing: border-box;
   padding: 10px;
   border: none;
@@ -151,7 +151,7 @@ i.icon.icon-room {
   text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
 }
 #now-playing-bar > #now-playing-media .bar-value{
-   display: inline-block;
+  display: inline-block;
   box-sizing: border-box;
   padding: 10px;
   border: none;
@@ -182,7 +182,6 @@ i.icon.icon-room {
   display: inline-block;
   box-sizing: border-box;
   padding: 10px;
-  left: 200px !important;
   border: none;
   top: -8px !important;
   font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
