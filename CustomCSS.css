@@ -408,7 +408,6 @@ i.icon.icon-room {
 
 /* Footer Text */
 
-@import url("https://fonts.googleapis.com/css?family=Orbitron");
 #your-active-playlist span,
 #your-next-media span {
   display: inline-block;
@@ -417,6 +416,7 @@ i.icon.icon-room {
   box-sizing: border-box;
   padding: 10px;
   border: none;
+  left: -2px !important;
   top: 7px !important;
   font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
   color: rgba(255,255,255,1);
@@ -436,7 +436,10 @@ i.icon.icon-room {
   text-shadow: 3px 3px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(255,255,255,1) , 0 0 110px rgba(232,61,5,1) , 0 0 130px rgba(232,61,5,1) , 0 0 150px rgba(232,61,5,1) ;
 }
 #your-next-media i{
-display: none !important;
+  display: none !important;
+}
+#your-active-playlist i{
+  display: none !important;
 }
 
 /* Scrollbars */
