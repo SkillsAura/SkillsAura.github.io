@@ -117,13 +117,9 @@ i.icon.icon-room {
 .room-background {
     display: none
 }
-#playback-controls .button.refresh:hover, 
-.icon-refresh-video,
-#playback-controls .button.hd:hover,
-#playback-controls .button.snooze:hover,
-.icon-playback-snooze,
-#playback-controls .button.stream:hover,
-.icon-playback-snooze {
+#playback-controls .button.refresh:hover .icon-refresh-video,
+#playback-controls .button.snooze:hover .icon-playback-snooze,
+#playback-controls .button.stream:hover .icon-playback-snooze {
     animation: pulse 1s ease infinite;
 }
 
