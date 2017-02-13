@@ -77,7 +77,7 @@
 /* samanthalolz  [13490395] */
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i,
-#user-rollover.id-13490395 .badge-box > i.bdg 
+#user-rollover.id-13490395 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/mtfhebO.jpg);
 }
 /* Smash|smashbro12 [8452233] */
