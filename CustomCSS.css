@@ -350,10 +350,14 @@ i.icon.icon-room {
 /* Footer Text */
 
 #your-next-media span{
-    text-shadow: 0 0 20px #FF0000;
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;
 }
 #your-active-playlist span{
-    text-shadow: 0 0 20px #FF0000;
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;
 }
 
 /* Scrollbars */
