@@ -31,7 +31,7 @@ i.icon.icon-room {
 
 /* Room Name | Hosted By */
 #room-bar * {
-    font-weight: lighter!important;
+    font-weight: bold!important;
 }
 #room-bar span {
     font-size: 20px!important;
@@ -48,11 +48,41 @@ i.icon.icon-room {
     transition-delay: .25s!important;
 }
 #room-bar>#room-name {
-    margin-top: 7px!important;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  left: 80px;
+  border: none;
+  top: -23px !important;
+  color: rgba(255,255,255,1);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  -webkit-animation: glow 1s infinite alternate;
 }
+
 #room-bar>#room-host {
-    margin-top: -15px!important;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  left: 85px;
+  border: none;
+  top: 2px !important;
+  color: rgba(255,255,255,1);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  -webkit-animation: glow 1s infinite alternate;
 }
+
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 37px rgba(255,255,255,1);
+    }
+}
+
 
 /* App-Header */
 .app-header{
