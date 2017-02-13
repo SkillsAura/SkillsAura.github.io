@@ -87,5 +87,6 @@
     content: url("http://http://i.imgur.com/P3X1YFk.png") !important;
     top: 3px;
     right: 3px;
-    position: absolute;
+    position: relative;
 }
+
