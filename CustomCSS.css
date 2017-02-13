@@ -347,6 +347,12 @@ i.icon.icon-room {
     box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
 }
 
+/* Footer Text */
+
+#your-next-media.section.bar-value .span {
+    text-shadow: 0 0 20px #FF0000;
+}
+
 /* Scrollbars */
 #chat-messages::-webkit-scrollbar,
 #grab-rs-list::-webkit-scrollbar,
