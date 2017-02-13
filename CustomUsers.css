@@ -42,7 +42,10 @@
 /* ArkhamBot [17969387] */
 #chat-messages .fromID-17969387 .badge-box i,
 #chat-messages .id-17969387 .badge-box i,
-#user-rollover.id-17969387 .badge-box > i.bdg {
+#user-rollover.id-17969387 .badge-box > i.bdg,
+/* No Badge */
+#user-rollover .badge-box > i.bdg-blankb,
+.cm .no-badge i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -123,8 +126,9 @@
 #user-rollover.id-17969387 .badge-box > i.bdg {
     background-image: url(http://i.imgur.com/i9Gk5FF.png);
 }
-
-.badge-box.no-badge.clickable.i {
+/* No badge */
+#user-rollover .badge-box > i.bdg-blankb,
+.cm .no-badge i {
      background: url(http://i.imgur.com/i9Gk5FF.png) !important;
 }
 
