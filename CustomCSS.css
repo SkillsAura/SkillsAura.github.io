@@ -372,7 +372,7 @@ i.icon.icon-room {
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
-#your-next-playlist spanhover,
+#your-next-playlist span:hover,
 #your-next-media span:hover {
   text-shadow: 3px 3px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(255,255,255,1) , 0 0 110px rgba(232,61,5,1) , 0 0 130px rgba(232,61,5,1) , 0 0 150px rgba(232,61,5,1) ;
 }
