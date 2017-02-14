@@ -1,7 +1,7 @@
 {
     "room":"♫ ArkhamNetwork ♫",
     "author":"ArhkamBot",
-    "icon":"http://i.imgur.com/pp5bhiz.png",
+    "icon":"https://i.imgur.com/pp5bhiz.png",
     "css":"https://skillsaura.github.io/CustomCSS.css",
     "rules":{
         "allowAutorespond":true,
