@@ -292,7 +292,7 @@ i.icon.icon-room {
 }
 /* Playback Video Area */
 
-#playback .background .room-background {
+#playback .background {
     display: none !important;
 }
 /* Chat */
