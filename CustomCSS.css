@@ -31,6 +31,72 @@ i.icon.icon-room {
 
 /* Room Name | Hosted By */
 
+#room-bar * {
+    font-weight: bold!important;
+}
+#room-bar span {
+    font-size: 20px!important;
+}
+#room-bar:hover>#room-host,
+#room-bar>#room-name {
+    opacity: 0!important;
+    transition: opacity .25s!important;
+}
+#room-bar:hover>#room-name,
+#room-bar>#room-host {
+    opacity: 1!important;
+    transition: opacity .25s!important;
+    transition-delay: .25s!important;
+}
+#room-bar>#room-name {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  left: 80px;
+  border: none;
+  top: -15px !important;
+  color: rgba(255,255,255,1);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  -webkit-animation: glow 1s infinite alternate;
+}
+
+#room-bar>#room-host {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  left: 85px;
+  border: none;
+  top: -13px !important;
+  color: rgba(255,255,255,1);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  -webkit-animation: glow 1s infinite alternate;
+}
+#room-name .bar-value {
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;
+} 
+#room-host .dark-label {
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;
+} 
+#room-host .username {
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', Orbitron-Regular;
+}
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 40px rgba(255,255,255,1);
+    }
+}
 
 /* App-Header */
 .app-header{
@@ -94,23 +160,6 @@ i.icon.icon-room {
  border-left: 1px solid black;
  border-right: 1px solid black;
 }
-
-/* App Header Text */
-/*#room-name .bar-value {
-    color: white;
-    font-weight: bold;
-    font-family: 'Orbitron', Orbitron-Regular;
-} 
-#room-host .dark-label {
-    color: white;
-    font-weight: bold;
-    font-family: 'Orbitron', Orbitron-Regular;
-} 
-#room-host .username {
-    color: white;
-    font-weight: bold;
-    font-family: 'Orbitron', Orbitron-Regular;
-} */
 
 /* Now playing song | Now playing DJ text edit */
 
