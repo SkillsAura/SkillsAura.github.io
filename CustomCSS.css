@@ -57,18 +57,20 @@ span.refresh {
     border-radius: 100px;
     background: transparent !important;
 }
-#user-inventory .avatars .cell.selected {
-    border: 5px solid green;
-}
-#user-inventory .badges .cell.selected {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 5px solid green;
-}
 #user-store .misc .cell,
 #user-store .misc .cell .title-bar {
     border-radius: 0;
     background: transparent !important;
+}
+/* XP Bars */
+
+.experience .xp .bar,
+.experience .xp .bar .progress {
+    border-radius: 25px 5px 25px 5px!important;
+}
+#footer-user .info .meta .bar,
+#footer-user .info .meta .bar .progress {
+    border-radius: 25px 5px 25px 5px!important;
 }
 /* Room Background */
 
@@ -507,22 +509,16 @@ i.icon.icon-room {
     left: -2px !important;
     top: 7px !important;
     font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    ;
     color: rgba(255, 255, 255, 1);
     text-decoration: normal;
     text-align: center;
     -o-text-overflow: clip;
     text-overflow: clip;
     white-space: pre;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
     -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-}
-#your-active-playlist span:hover,
-#your-next-media span:hover {
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 1), 0 0 110px rgba(232, 61, 5, 1), 0 0 130px rgba(232, 61, 5, 1), 0 0 150px rgba(232, 61, 5, 1);
 }
 #your-next-media i {
     display: none !important;
