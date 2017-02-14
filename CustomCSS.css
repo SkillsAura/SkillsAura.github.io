@@ -3,13 +3,80 @@
 @import url("https://skillsaura.github.io/CustomCSSusericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 @import url("https://fonts.googleapis.com/css?family=Squada+One");
-
 /* ------------------------------ Interface ------------------------------ */
+/* User Menus */
 
+#user-menu {
+    background: rgba(53, 6, 8, .8);
+}
+#user-view {
+    background: rgba(53, 6, 8, 0.75) !important;
+}
+.container .header span {
+    color: #ffffff;
+}
+#user-friends .list .row,
+#user-view .cell .top {
+    opacity: .6;
+    border-radius: 90px;
+    transition: border-radius .2s ease-out;
+    background: 0 0;
+}
+#user-friends .list .row:hover,
+#user-view .cell:hover .top,
+#user-view .selected .top {
+    opacity: 1
+}
+#app-menu,
+#app-menu .list {
+    max-width: 400px!important;
+}
+.grid .cell {
+    border-radius: 25px 25px 25px 25px;
+}
+.grid .cell .meta .host,
+.item span,
+.cap .title,
+.cap .value,
+label,
+span.refresh {
+    color: #ffffff !important;
+}
+/* Shop/Inventory */
+
+#user-inventory .cell.selected .top,
+#user-inventory .cell:hover>.top,
+#user-store .cell.selected .top,
+#user-store .cell:hover>.top {
+    border-radius: 12px;
+    background: transparent !important;
+}
+#user-inventory .cell,
+#user-store .cell,
+#user-store .cell .top {
+    border-radius: 100px;
+    background: transparent !important;
+}
+#user-inventory .avatars .cell.selected {
+    border: 5px solid green;
+}
+#user-inventory .badges .cell.selected {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 5px solid green;
+}
+#user-store .misc .cell,
+#user-store .misc .cell .title-bar {
+    border-radius: 0;
+    background: transparent !important;
+}
 /* Room Background */
+
 .room-background {
-    background-image: url(https://i.imgur.com/8kaIagn.jpg) !important;}
+    background-image: url(https://i.imgur.com/8kaIagn.jpg) !important;
+}
 /* Room Icon */
+
 #room-host,
 #room-name {
     left: 105px;
@@ -23,12 +90,11 @@ i.icon.icon-room {
     height: 40px;
 }
 .icon-room {
-   background: url(https://i.imgur.com/U5f0EUR.png) no-repeat;
-   width: 0px;
-   height: 0px;
-   background-size: 65%;
- }
-
+    background: url(https://i.imgur.com/U5f0EUR.png) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;
+}
 /* Room Name | Hosted By */
 
 #room-bar * {
@@ -49,44 +115,43 @@ i.icon.icon-room {
     transition-delay: .25s!important;
 }
 #room-bar>#room-name {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 80px;
-  border: none;
-  top: -15px !important;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  -webkit-animation: glow 1s infinite alternate;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 80px;
+    border: none;
+    top: -15px !important;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    -webkit-animation: glow 1s infinite alternate;
 }
-
 #room-bar>#room-host {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 85px;
-  border: none;
-  top: -13px !important;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  -webkit-animation: glow 1s infinite alternate;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 85px;
+    border: none;
+    top: -13px !important;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    -webkit-animation: glow 1s infinite alternate;
 }
 #room-name .bar-value {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
-} 
+}
 #room-host .dark-label {
     color: white;
     font-weight: bold;
     font-family: 'Orbitron', Orbitron-Regular;
-} 
+}
 #room-host .username {
     color: white;
     font-weight: bold;
@@ -94,189 +159,186 @@ i.icon.icon-room {
 }
 @-webkit-keyframes glow {
     to {
-        text-shadow: 0 0 40px rgba(255,255,255,1);
+        text-shadow: 0 0 40px rgba(255, 255, 255, 1);
     }
 }
-
 /* App-Header */
-.app-header{
-    background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
+
+.app-header {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
 #rs-skip-button {
-   background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%) !important;
-   border-right: 1px solid #000000;
-   border-left: 1px solid #000000;
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%) !important;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
 }
-
-#history-button{
-   background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
-   border-left: 1px solid black;
-   border-right: 1px solid black;
+#history-button {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#chat-button.header-panel-button{
-   background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);
-   border-left: 1px solid black;
-   border-right: 1px solid black;
+#chat-button.header-panel-button {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#app-menu.in-room{
-   background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%);  
+#app-menu.in-room {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
-.button{
-  background: none !important;
-}
-#rcs-progress-container{
+.button {
     background: none !important;
 }
-
+#rcs-progress-container {
+    background: none !important;
+}
 #rcs-progress-container .bar {
-    background: linear-gradient(to right, rgba(232,61,5,1) 0, rgba(215,118,37,1) 100%)!important;
+    background: linear-gradient(to right, rgba(232, 61, 5, 1) 0, rgba(215, 118, 37, 1) 100%)!important;
     box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
 }
-
 /* App Header Buttons Selected */
 
-#users-button.header-panel-button.selected{
- background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); 
- border-left: 1px solid black;
- border-right: 1px solid black;
+#users-button.header-panel-button.selected {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#waitlist-button.header-panel-button.selected{
- background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); 
- border-left: 1px solid black;
- border-right: 1px solid black;
+#waitlist-button.header-panel-button.selected {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#friends-button.header-panel-button.selected{
- background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); 
- border-left: 1px solid black;
- border-right: 1px solid black;
+#friends-button.header-panel-button.selected {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#rcs-appright-button.header-panel-button.selected{
- background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); 
- border-left: 1px solid black;
- border-right: 1px solid black;
+#rcs-appright-button.header-panel-button.selected {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-#history-button.selected{
- background: linear-gradient(to top, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); 
- border-left: 1px solid black;
- border-right: 1px solid black;
+#history-button.selected {
+    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
-
 /* Now playing song | Now playing DJ text edit */
 
 #now-playing-bar > #now-playing-media {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 25px;
-  border: none;
-  top: -35px !important;
-  font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 25px;
+    border: none;
+    top: -35px !important;
+    font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
+    ;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
 }
-#now-playing-bar > #now-playing-media .bar-value{
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 2px;
-  border: none;
-  top: -35px !important;
-  font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
+#now-playing-bar > #now-playing-media .bar-value {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 2px;
+    border: none;
+    top: -35px !important;
+    font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
+    ;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
 }
 #now-playing-bar > #now-playing-dj {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 26px;
-  border: none;
-  top: -8px !important;
-  font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 26px;
+    border: none;
+    top: -8px !important;
+    font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
+    ;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
 }
-#now-playing-bar > #now-playing-dj span{
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  left: 26px;
-  border: none;
-  top: -8px !important;
-  font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
-  color: rgba(255,255,255,1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
+#now-playing-bar > #now-playing-dj span {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 26px;
+    border: none;
+    top: -8px !important;
+    font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
+    ;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
 }
-
-
 /* Playback Video Area */
+
 #playback .background .room-background {
     display: none !important;
 }
-
 /* Chat */
+
 #room .app-right {
-   background: linear-gradient(to bottom, rgba(53,6,8,.5) 0, rgba(53,6,8,.5) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .5) 0, rgba(53, 6, 8, .5) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #room .app-right .cm.log {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #room .app-right .cm.message {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #room .app-right .cm.moderation {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #room .app-right .cm.moderation {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #room .app-right .cm.user-action {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #msg {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
-#room .app-right .cm.emote {   
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+#room .app-right .cm.emote {
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #chat-messages .cm:not(.log):hover {
-   transform: translate(5px, -5px);
-   background-color: rgba(53,6,8,.4);
-} 
+    transform: translate(5px, -5px);
+    background-color: rgba(53, 6, 8, .4);
+}
 #room .app-right .cm.mention {
-   background: -webkit-linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(-90deg, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%); /* Standard syntax */
- }
+    background: -webkit-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+    /* Standard syntax */
+}
 #room .app-right .cm.user-mentioned {
-   background: linear-gradient(to bottom, rgba(53,6,8,.4) 0, rgba(53,6,8,.4) 100%),
-   url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}   
+    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+}
 #chat-input,
 #import-youtube .button,
 #import-youtube .youtube-input,
@@ -297,10 +359,10 @@ i.icon.icon-room {
 #filter-bar,
 #search-bar {
     border-radius: 30px;
-    background: rgba(53,6,8,1) !important;
+    background: rgba(53, 6, 8, 1) !important;
 }
-
 /* Vote Buttons */
+
 #grab-rs,
 #meh-rs,
 #woot-rs {
@@ -378,8 +440,8 @@ i.icon.icon-room {
     background: linear-gradient(225deg, hsla(5, 80%, 50%, .8), hsla(0, 80%, 40%, .8))!important;
     box-shadow: inset 0 0 10px #ff3f00!important;
 }
-
 /* Join/Leave Wait List Button */
+
 #dj-button.is-full,
 #dj-button.is-leave,
 #dj-button.is-locked,
@@ -393,7 +455,7 @@ i.icon.icon-room {
     background: linear-gradient(to top, #3A3A3A, rgba(34, 34, 34, 1) 100%);
 }
 #dj-button .left {
-    border-radius:  50px 0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
     background: linear-gradient(to top, #14C0F3, rgba(0, 152, 196, 1) 100%);
 }
 #dj-button.is-leave .left {
@@ -402,26 +464,26 @@ i.icon.icon-room {
 .torch {
     visibility: hidden;
 }
-
 /* Playlist/History Menu */
+
 #history-panel,
 #playlist-panel {
-    background: rgba(53,6,8,.75);
+    background: rgba(53, 6, 8, .75);
     text-shadow: 1px -1px #000000;
 }
 #playlist-menu .title {
     color: #ffffff;
 }
 #playlist-menu {
-    background: rgba(53,6,8,.8);
+    background: rgba(53, 6, 8, .8);
 }
 #search {
-   background: rgba(53,6,8,.8);
+    background: rgba(53, 6, 8, .8);
 }
-
 /* Footer */
+
 #footer {
-  background: linear-gradient(to bottom, rgba(152,0,0,1) 0, rgba(53,6,8,1) 100%)!important;
+    background: linear-gradient(to bottom, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%)!important;
 }
 #playlist-button,
 #playlist-menu .menu .row.selected,
@@ -429,47 +491,47 @@ i.icon.icon-room {
 .media-list .row.now-playing .actions,
 .media-list .row.selected,
 .media-list .selected .actions {
-    background: linear-gradient(to bottom, rgba(232,61,5,1) 0, rgba(215,118,37,1) 100%)!important;
+    background: linear-gradient(to bottom, rgba(232, 61, 5, 1) 0, rgba(215, 118, 37, 1) 100%)!important;
     box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
 }
-
 /* Footer Text */
 
 #your-active-playlist span,
 #your-next-media span {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  border: none;
-  left: -2px !important;
-  top: 7px !important;
-  font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;;
-  color: rgba(255,255,255,1);
-  text-decoration: normal;
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(232,61,5,1) , 0 0 70px rgba(232,61,5,1) , 0 0 80px rgba(232,61,5,1) , 0 0 100px rgba(232,61,5,1) ;
-  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    left: -2px !important;
+    top: 7px !important;
+    font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;
+    ;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 #your-active-playlist span:hover,
 #your-next-media span:hover {
-  text-shadow: 3px 3px 4px rgba(0,0,0,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(255,255,255,1) , 0 0 110px rgba(232,61,5,1) , 0 0 130px rgba(232,61,5,1) , 0 0 150px rgba(232,61,5,1) ;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 1), 0 0 110px rgba(232, 61, 5, 1), 0 0 130px rgba(232, 61, 5, 1), 0 0 150px rgba(232, 61, 5, 1);
 }
-#your-next-media i{
-  display: none !important;
+#your-next-media i {
+    display: none !important;
 }
-#your-active-playlist i{
-  display: none !important;
+#your-active-playlist i {
+    display: none !important;
 }
-
 /* Scrollbars */
+
 #chat-messages::-webkit-scrollbar,
 #grab-rs-list::-webkit-scrollbar,
 #meh-rs-list::-webkit-scrollbar,
@@ -490,5 +552,3 @@ i.icon.icon-room {
     box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
     border-radius: 5px;
 }
-
-
