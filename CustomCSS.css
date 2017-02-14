@@ -8,7 +8,7 @@
 
 /* Room Background */
 .room-background {
-    background-image: url(http://i.imgur.com/NiPFlys.png) !important;}
+    background-image: url(https://i.imgur.com/8kaIagn.jpg) !important;}
 /* Room Icon */
 #room-host,
 #room-name {
@@ -23,7 +23,7 @@ i.icon.icon-room {
     height: 40px;
 }
 .icon-room {
-   background: url(http://i.imgur.com/U5f0EUR.png) no-repeat;
+   background: url(https://i.imgur.com/U5f0EUR.png) no-repeat;
    width: 0px;
    height: 0px;
    background-size: 65%;
