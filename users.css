@@ -166,11 +166,9 @@
     background: transparent !important;
 }
 
-/* JordanThePanda Rainbow Hover */
-#chat [data-cid^="5382369-"] span.un.clickable:hover {
--webkit-animation:rainbow 1s infinite;
--ms-animation:rainbow 1s infinite;
--o-animation:rainbow 1s infinite;
+/* JordanThePanda|Roboto Rainbow Hover */
+#chat [data-cid^="22670452-"] span.un.clickable:hover,
+#chat [data-cid^="6137690-"] span.un.clickable:hover{
 animation:rainbow 1s infinite;
 }
 
@@ -187,6 +185,7 @@ animation:rainbow 1s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
+
 /* TEMP MADDIE TROLL CODE 5382369*/
 
 #chat [data-cid^="5382369-"] span.un.clickable {
