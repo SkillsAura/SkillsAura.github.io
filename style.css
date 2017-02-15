@@ -1,8 +1,17 @@
-@import url("https://skillsaura.github.io/CustomUsers.css");
-@import url("https://skillsaura.github.io/CustomCSSstaff.css");
-@import url("https://skillsaura.github.io/CustomCSSusericons.css");
+@import url("https://skillsaura.github.io/users.css");
+@import url("https://skillsaura.github.io/staff.css");
+@import url("https://skillsaura.github.io/usericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
+/* May or may not keep this */
+
+@keyframes spinCycle {
+    from { filter: hue-rotate(0deg); -webkit-filter: hue-rotate(0deg) }
+    to   { filter: hue-rotate(360deg); -webkit-filter: hue-rotate(360deg) }
+}
+.room-background {
+    animation: 10s linear 0s infinite spinCycle;
+}
 /* User Menus */
 
 #user-menu {
