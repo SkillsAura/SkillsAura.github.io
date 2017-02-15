@@ -226,6 +226,7 @@ i.icon.icon-room {
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
+/* User-rollover Section */
 
 #user-rollover {
     border-radius: 10px;
@@ -269,8 +270,7 @@ i.icon.icon-room {
 #user-rollover .actions .action.mod-ban:hover {
     background: rgb(53, 6, 8);
 }
-#user-rollover .actions i,
-#user-rollover .actions {
+#user-rollover .actions i {
     transition: all 0.2s ease-in-out;
 }
 #user-rollover .actions .giftsub:hover .icon-chat-subscriber,
