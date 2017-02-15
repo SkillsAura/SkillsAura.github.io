@@ -240,9 +240,9 @@ i.icon.icon-room {
     text-overflow: clip;
     white-space: pre;
 }
-#now-playing-bar i {
+.icon-current-dj {
 display: none !important;
-}
+} 
 /* Playback Video Area */
 
 #playback .background {
@@ -372,37 +372,3 @@ display: none !important;
     box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
     border-radius: 5px;
 }
-
-/* TEMP MADDIE TROLL CODE */
-/*
-#chat [data-cid^="5382369-"] span.un.clickable {
-    color: rgba(89, 48, 1, 1) !important;
-}
-
-.cm.id-5382369 .from .un.clickable:before {
-    content: url("https://i.imgur.com/qhsMrdF.png") !important;
-    top: 0px;
-    right: 3px;
-    position: relative;
-}
-
-#chat-messages .fromID-5382369 .badge-box i,
-#chat-messages .id-5382369 .badge-box i,
-#user-rollover.id-5382369 .badge-box > i.bdg {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border: none;
-    border-radius: 20px;
-    background-position: initial;
-    background-repeat: no-repeat !important;
-}
-#chat-messages .fromID-5382369 .badge-box i,
-#chat-messages .id-5382369 .badge-box i,
-#user-rollover.id-5382369 .badge-box > i.bdg {
-    background-image: url('https://i.imgur.com/lbwtQSA.png');
-}
-*/
-
