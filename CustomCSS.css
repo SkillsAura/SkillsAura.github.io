@@ -234,7 +234,7 @@ i.icon.icon-room {
     border: none;
     top: -35px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240,1);
+    color: rgb(240, 240, 240);
     text-align: left;
     -o-text-overflow: clip;
     text-overflow: clip;
@@ -249,7 +249,7 @@ i.icon.icon-room {
     border: none;
     top: -35px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240,1);
+    color: rgb(240, 240, 240);
     text-align: left;
     -o-text-overflow: clip;
     text-overflow: clip;
@@ -264,7 +264,7 @@ i.icon.icon-room {
     border: none;
     top: -8px !important;
     font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240,1) ;
+    color: rgb(240, 240, 240);
     text-align: left;
     -o-text-overflow: clip;
     text-overflow: clip;
@@ -279,7 +279,7 @@ i.icon.icon-room {
     border: none;
     top: -8px !important;
     font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240,1);
+    color: rgb(240, 240, 240);
     text-align: left;
     -o-text-overflow: clip;
     text-overflow: clip;
@@ -403,8 +403,7 @@ i.icon.icon-room {
     left: -2px !important;
     top: 7px !important;
     font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240,1) ;
-    text-decoration: normal;
+    color: rgb(240,240,240);
     text-align: center;
     -o-text-overflow: clip;
     text-overflow: clip;
