@@ -142,23 +142,7 @@
 }
 /* No badge (Not Working) */
 
-#user-rollover .badge-box > i.bdg-blankb,
-.cm .no-badge i {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border: none;
-    border-radius: 20px;
-    background-position: initial;
-    background-repeat: no-repeat !important
-}  
 
-#user-rollover .badge-box > i.bdg-blankb,
-.cm .no-badge i {
-     background: url(https://i.imgur.com/RbpRro6.png) !important;
-} 
 /* Remove badge background */
 
 .badge-box {
