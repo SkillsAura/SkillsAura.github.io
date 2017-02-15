@@ -164,6 +164,8 @@
 }
 
 /* JordanThePanda|Roboto Rainbow Hover */
+#user-rollover.id-22670452 .username:hover
+#user-rollover.id-6137690 .username:hover,
 #chat [data-cid^="22670452-"] span.un.clickable:hover,
 #chat [data-cid^="6137690-"] span.un.clickable:hover{
 animation:rainbow 1s infinite;
@@ -184,7 +186,8 @@ animation:rainbow 1s infinite;
 }
 
 /* Mr.Roboto | Jordan Name */
- 
+#user-rollover.id-6137690 .username
+#user-rollover.id-22670452 .username
 #chat [data-cid^="6137690-"] span.un.clickable,
 #chat [data-cid^="22670452-"] span.un.clickable{
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
