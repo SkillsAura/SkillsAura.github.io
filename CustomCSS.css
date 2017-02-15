@@ -179,10 +179,10 @@ i.icon.icon-room {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
-#chat-button.header-panel-button {
+#chat-button {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
     border-right: 1px solid black;
+    width: 50px;
 }
 #app-menu.in-room {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
@@ -202,7 +202,8 @@ i.icon.icon-room {
 #waitlist-button.header-panel-button.selected,
 #friends-button.header-panel-button.selected,
 #rcs-appright-button.header-panel-button.selected,
-#history-button.selected {
+#history-button.selected,
+.header-panel-button.selected{
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-left: 1px solid black;
     border-right: 1px solid black;
