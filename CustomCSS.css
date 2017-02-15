@@ -151,10 +151,8 @@ i.icon.icon-room {
 #app-menu.in-room {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
-.button {
-    background: none !important;
-}
-#rcs-progress-container {
+.button,
+#rcs-progress-container{
     background: none !important;
 }
 #rcs-progress-container .bar {
