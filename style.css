@@ -241,7 +241,7 @@ i.icon.icon-room {
 
 #user-rollover {
     border-radius: 10px;
-    background: rgb(53, 6, 8)   
+    background: rgb(53, 6, 8)  
 }
 #user-rollover.self.chat .info {
     border-radius: 0 0 10px 10px !important;
@@ -286,8 +286,10 @@ i.icon.icon-room {
 #user-rollover .actions .mod-dj:hover .icon-leave-booth,
 #user-rollover .actions .mod-staff:hover .icon-staff,
 #user-rollover .actions .mod-mute:hover .icon-mute-big,
-#user-rollover .actions .mod-ban:hover .icon-ban {
+#user-rollover .actions .mod-ban:hover .icon-ban,
+.thumb.large {
     transform: scale(1.2);
+    overflow: hidden; 
 } 
 /* blabla bla */
 
