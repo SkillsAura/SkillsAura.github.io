@@ -198,27 +198,10 @@ i.icon.icon-room {
     box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
 }
 /* App Header Buttons Selected */
-
-#users-button.header-panel-button.selected {
-    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-#waitlist-button.header-panel-button.selected {
-    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-#friends-button.header-panel-button.selected {
-    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-#rcs-appright-button.header-panel-button.selected {
-    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
+#users-button.header-panel-button.selected,
+#waitlist-button.header-panel-button.selected,
+#friends-button.header-panel-button.selected,
+#rcs-appright-button.header-panel-button.selected,
 #history-button.selected {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-left: 1px solid black;
