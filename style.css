@@ -3,20 +3,6 @@
 @import url("https://skillsaura.github.io/usericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 /* May or may not keep this */
-
-@keyframes colorChange {
-    from {
-        filter: hue-rotate(0deg);
-        -webkit-filter: hue-rotate(0deg)
-    }
-    to {
-        filter: hue-rotate(360deg);
-        -webkit-filter: hue-rotate(360deg)
-    }
-}
-.room-background {
-    animation: 10s linear 0s infinite colorChange;
-}
 /* User Menus */
 
 #user-menu {
