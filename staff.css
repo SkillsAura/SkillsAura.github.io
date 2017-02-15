@@ -1,29 +1,35 @@
 /* Arkhambot [17969387] */
+
 #chat [data-cid^="17969387-"] span.un.clickable {
-    color: color: rgba(100, 246, 133, 1) !important;}
+    color: color: rgb(100, 246, 133) !important;
+}
 #chat [data-cid^="17969387-"].emote {
-    background: color: rgba(100, 246, 133, 1) !important;
-    border-left: rgba(100, 246, 133, 1) 3px solid !important;}
+    background: color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
 #chat [data-cid^="17969387-"].emote .text {
-    color: rgba(100, 246, 133, 1) !important;
+    color: rgb(100, 246, 133) !important;
     font-style: normal;
     font-weight: bold;
 }
-
 /* Staff Icons */
 /* RDJ */
+
 .icon-chat-dj {
     background: url(https://i.imgur.com/Qs9vuFU.png);
 }
 /* Bouncer */
+
 .icon-chat-bouncer {
     background: url(https://i.imgur.com/jAXifWz.png);
 }
 /* Manager */
+
 .icon-chat-manager {
     background: url(https://i.imgur.com/6MfwWsg.png);
 }
 /* Host/Co-Host */
+
 .icon-chat-host {
     background: url(https://i.imgur.com/wnDrBL6.png);
 }
