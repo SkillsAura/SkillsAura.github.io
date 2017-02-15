@@ -19,6 +19,7 @@
 #chat-messages .id-13490395 .badge-box i,
 #user-rollover.id-13490395 .badge-box > i.bdg,
 /* Smash|smashbro12 [8452233] */
+
 #chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i,
 #user-rollover.id-8452233 .badge-box > i.bdg,
@@ -38,14 +39,13 @@
 #chat-messages .id-5759108 .badge-box i,
 #user-rollover.id-5759108 .badge-box > i.bdg,
 /* Mǟɖɖɨɛ [5382369] */
-
 /*#chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg, *.
 /* Gay Peter Pan [22954907] */
 
 #chat-messages .fromID-22954907 .badge-box i,
-#chat-messages  .id-22954907 .badge-box i,
+#chat-messages .id-22954907 .badge-box i,
 #user-rollover.id-22954907 .badge-box > i.bdg,
 /* ArkhamBot [17969387] */
 
@@ -63,7 +63,6 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
-
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
 #chat-messages .fromID-22670452 .badge-box i,
@@ -95,7 +94,7 @@
 /* Smash|smashbro12 [8452233] */
 
 #chat-messages .fromID-8452233 .badge-box i,
-#chat-messages .id-8452233 .badge-box i ,
+#chat-messages .id-8452233 .badge-box i,
 #user-rollover.id-8452233 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/vWJGA4I.png);
 }
@@ -121,7 +120,6 @@
     background-image: url(https://i.imgur.com/eTg1nWK.png);
 }
 /* Mǟɖɖɨɛ [5382369] */
-
 /*#chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg {
@@ -129,7 +127,7 @@
 /* Gay Peter Pan [22954907] */
 
 #chat-messages .fromID-22954907 .badge-box i,
-#chat-messages .id-22954907 .badge-box i, 
+#chat-messages .id-22954907 .badge-box i,
 #user-rollover.id-22954907 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/dtTGOx7.png);
 }
@@ -143,9 +141,8 @@
 /* No badge (Not Working) */
 
 .badge-box.no-badge i {
-     background: url(https://i.imgur.com/ugMPziL.png) !important;
-} 
-
+    background: url(https://i.imgur.com/ugMPziL.png) !important;
+}
 .badge-box.no-badge i {
     background-size: cover;
     width: 100%;
@@ -155,8 +152,7 @@
     border: none;
     background-position: relative;
     background-repeat: no-repeat !important;
-} 
-
+}
 /* Remove badge background */
 
 .badge-box {
