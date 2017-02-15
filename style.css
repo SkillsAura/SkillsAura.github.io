@@ -226,56 +226,7 @@ i.icon.icon-room {
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
-/* User-rollover Section */
 
-#user-rollover {
-    border-radius: 10px;
-    background: rgb(53, 6, 8)   
-}
-#user-rollover.self.chat .info {
-    border-radius: 0 0 10px 10px !important;
-    background: rgb(115, 13, 18)
-}
-#user-rollover.self.can-skip.chat .info {
-    border-radius: 0 0 0 0 !important;
-}
-#user-rollover .info {
-    background: rgb(115, 13, 18)
-}
-#user-rollover.expand:not(.chat) .info {
-    border-radius: 0 0 0px 0px;
-}
-#user-rollover.self .action.skip{
-    border-radius: 0 0 10px 10px;
-} 
-#user-rollover .actions,
-#user-rollover .actions .action.giftsub:hover,
-#user-rollover .actions .action.skip:hover,
-#user-rollover .actions .action.mention:hover, 
-#user-rollover .actions .action.ignore:hover
-#user-rollover .actions .action.gift:hover,
-#user-rollover .actions .action.friend:hover,
-#user-rollover .actions .action.mod-dj:hover,
-#user-rollover .actions .action.mod-staff:hover,
-#user-rollover .actions .action.mod-mute:hover,
-#user-rollover .actions .action.mod-ban:hover {
-    background: rgb(53, 6, 8);
-}
-#user-rollover .actions i {
-    transition: all 0.2s ease-in-out;
-}
-#user-rollover .actions .giftsub:hover .icon-chat-subscriber,
-#user-rollover .actions .skip:hover .icon-skip,
-#user-rollover .actions .mention:hover .icon-mention,
-#user-rollover .actions .ignore:hover .icon-ignore,
-#user-rollover .actions .gift:hover .icon-gift,
-#user-rollover .actions .friend:hover .icon-add-friend,
-#user-rollover .actions .mod-dj:hover .icon-leave-waitlist,
-#user-rollover .actions .mod-staff:hover .icon-staff,
-#user-rollover .actions .mod-mute:hover .icon-mute-big,
-#user-rollover .actions .mod-ban:hover .icon-ban {
-    transform: scale(1.1);
-}
 /* blabla bla */
 
 #chat-input,
