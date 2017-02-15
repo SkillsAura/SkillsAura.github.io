@@ -41,6 +41,17 @@ label,
 span.refresh {
     color: #ffffff !important;
 }
+/* User List Hover */
+
+#user-lists .list .user:hover {
+background: linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
+transform: translate(5px, -5px);
+width: initial;
+top: 10px;
+}
+#user-lists .list .user {
+top: 10px;
+}
 /* Shop/Inventory */
 
 #user-inventory .cell.selected .top,
