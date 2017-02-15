@@ -39,10 +39,11 @@
 #chat-messages .id-5759108 .badge-box i,
 #user-rollover.id-5759108 .badge-box > i.bdg,
 /* Mǟɖɖɨɛ [5382369] */
-
+/*
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg,
+*/
 /* Gay Peter Pan [22954907] */
 
 #chat-messages .fromID-22954907 .badge-box i,
@@ -121,12 +122,12 @@
     background-image: url(https://i.imgur.com/eTg1nWK.png);
 }
 /* Mǟɖɖɨɛ [5382369] */
-
+/*
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/LdVHyDL.jpg);
-}
+}*/
 /* Gay Peter Pan [22954907] */
 
 #chat-messages .fromID-22954907 .badge-box i,
@@ -163,7 +164,7 @@
 }
 /* TEMP MADDIE TROLL CODE 5382369*/
 
-/*#chat [data-cid^="5382369-"] span.un.clickable {
+#chat [data-cid^="5382369-"] span.un.clickable {
     color: rgba(89, 48, 1, 1) !important;
 }
 .cm.id-5382369 .from .un.clickable:before {
@@ -188,4 +189,4 @@
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg {
     background-image: url('https://i.imgur.com/NzFSjbK.gif');
-}*/
+}
