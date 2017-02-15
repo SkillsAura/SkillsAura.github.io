@@ -218,6 +218,14 @@ i.icon.icon-room {
 #room .app-right .cm.mention {
     background: linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
+#user-lists .list .user,
+#chat-messages .message,
+#chat-messages .cm{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
 #chat-input,
 #import-youtube .button,
 #import-youtube .youtube-input,
