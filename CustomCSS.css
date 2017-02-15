@@ -407,7 +407,7 @@ i.icon.icon-room {
     left: -2px !important;
     top: 7px !important;
     font: normal 18px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(240,240,240,1) ;
     text-decoration: normal;
     text-align: center;
     -o-text-overflow: clip;
@@ -448,7 +448,7 @@ i.icon.icon-room {
 }
 
 /* TEMP MADDIE TROLL CODE */
-
+/*
 #chat [data-cid^="5382369-"] span.un.clickable {
     color: rgba(89, 48, 1, 1) !important;
 }
@@ -478,4 +478,5 @@ i.icon.icon-room {
 #user-rollover.id-5382369 .badge-box > i.bdg {
     background-image: url('https://i.imgur.com/lbwtQSA.png');
 }
+*/
 
