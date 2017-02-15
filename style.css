@@ -259,6 +259,9 @@ i.icon.icon-room {
 #user-rollover.self .action.skip{
     border-radius: 0 0 10px 10px;
 } 
+.thumb .background {
+   background: transparent;
+}
 #user-rollover .actions,
 #user-rollover .actions .action.giftsub:hover,
 #user-rollover .actions .action.skip:hover,
@@ -275,7 +278,7 @@ i.icon.icon-room {
 }
 #user-rollover .actions,
 #user-rollover .actions i {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 #user-rollover .actions .giftsub:hover .icon-chat-subscriber,
 #user-rollover .actions .skip:hover .icon-skip,
@@ -286,11 +289,9 @@ i.icon.icon-room {
 #user-rollover .actions .mod-dj:hover .icon-leave-booth,
 #user-rollover .actions .mod-staff:hover .icon-staff,
 #user-rollover .actions .mod-mute:hover .icon-mute-big,
-#user-rollover .actions .mod-ban:hover .icon-ban,
-.thumb .background {
-    transform: scale(1.2);
-    overflow: hidden; 
-} 
+#user-rollover .actions .mod-ban:hover .icon-ban {
+    transform: scale(1.2);   
+}
 /* blabla bla */
 
 #chat-input,
