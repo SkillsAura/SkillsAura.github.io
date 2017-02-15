@@ -226,26 +226,12 @@ i.icon.icon-room {
 }
 /* Now playing song | Now playing DJ text edit */
 
-#now-playing-bar > #now-playing-media {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 10px;
-    left: 25px;
-    border: none;
-    top: -35px !important;
-    font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240, 240, 240);
-    text-align: left;
-    -o-text-overflow: clip;
-    text-overflow: clip;
-    white-space: pre;
-    /*text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1);*/
-}
+#now-playing-bar > #now-playing-media,
 #now-playing-bar > #now-playing-media .bar-value {
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
-    left: 2px;
+    left: -12px;
     border: none;
     top: -35px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
@@ -254,28 +240,13 @@ i.icon.icon-room {
     -o-text-overflow: clip;
     text-overflow: clip;
     white-space: pre;
-   /*text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1); */
 }
-#now-playing-bar > #now-playing-dj {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 10px;
-    left: 26px;
-    border: none;
-    top: -8px !important;
-    font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240, 240, 240);
-    text-align: left;
-    -o-text-overflow: clip;
-    text-overflow: clip;
-    white-space: pre;
-    /*text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1); */
-}
+#now-playing-bar > #now-playing-dj,
 #now-playing-bar > #now-playing-dj span {
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
-    left: 26px;
+    left: -10px;
     border: none;
     top: -8px !important;
     font: normal 14px/normal "Warnes", 'Orbitron', Orbitron-Regular;
@@ -284,7 +255,9 @@ i.icon.icon-room {
     -o-text-overflow: clip;
     text-overflow: clip;
     white-space: pre;
-    /*text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px rgba(232, 61, 5, 1), 0 0 70px rgba(232, 61, 5, 1), 0 0 80px rgba(232, 61, 5, 1), 0 0 100px rgba(232, 61, 5, 1); */
+}
+#now-playing-bar i {
+display: none !important;
 }
 /* Playback Video Area */
 
