@@ -174,8 +174,8 @@ i.icon.icon-room {
 }
 #history-button {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+  /*  border-left: 1px solid black;
+    border-right: 1px solid black; */
 }
 #chat-button {
     border-right: 1px solid black;
