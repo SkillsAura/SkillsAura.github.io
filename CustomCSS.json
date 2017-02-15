@@ -2,7 +2,7 @@
     "room":"♫ ArkhamNetwork ♫",
     "author":"ArhkamBot",
     "icon":"https://i.imgur.com/pp5bhiz.png",
-    "css":"https://skillsaura.github.io/CustomCSS.css",
+    "css":"https://skillsaura.github.io/style.css",
     "rules":{
         "allowAutorespond":true,
         "allowAutowoot":true,
