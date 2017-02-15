@@ -52,6 +52,10 @@ top: 10px;
 #user-lists .list .user {
 top: 10px;
 }
+
+#user-lists .list.staff .group{
+    background: rgba(53, 6, 8, 0.75) !important;   
+}
 /* Shop/Inventory */
 
 #user-inventory .cell.selected .top,
