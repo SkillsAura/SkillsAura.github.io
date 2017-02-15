@@ -2,12 +2,17 @@
 @import url("https://skillsaura.github.io/staff.css");
 @import url("https://skillsaura.github.io/usericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
-
 /* May or may not keep this */
 
 @keyframes colorChange {
-    from { filter: hue-rotate(0deg); -webkit-filter: hue-rotate(0deg) }
-    to   { filter: hue-rotate(360deg); -webkit-filter: hue-rotate(360deg) }
+    from {
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg)
+    }
+    to {
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg)
+    }
 }
 .room-background {
     animation: 10s linear 0s infinite colorChange;
@@ -156,17 +161,17 @@ i.icon.icon-room {
 #history-button {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-left: 1px solid black;
-    border-right: 1px solid black; 
+    border-right: 1px solid black;
 }
 #chat-button {
     border-right: 1px solid black;
-    height: 54px; 
+    height: 54px;
 }
 #app-menu.in-room {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
 .button,
-#rcs-progress-container{
+#rcs-progress-container {
     background: none !important;
 }
 #rcs-progress-container .bar {
@@ -180,7 +185,7 @@ i.icon.icon-room {
 #friends-button.header-panel-button.selected,
 #rcs-appright-button.header-panel-button.selected,
 #chat-button.header-panel-button.selected,
-#history-button.selected{
+#history-button.selected {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
@@ -188,8 +193,7 @@ i.icon.icon-room {
 /* Now playing song | Now playing DJ text edit */
 
 #now-playing-bar > #now-playing-media,
-#now-playing-bar > #now-playing-media .bar-value
- {
+#now-playing-bar > #now-playing-media .bar-value {
     padding: 10px;
     left: -12px;
     top: -25px !important;
@@ -210,7 +214,7 @@ i.icon.icon-room {
 }
 /* Chat */
 
-#room .app-right ,
+#room .app-right,
 #room .app-right .cm.log,
 #room .app-right .cm.message,
 #room .app-right .cm.moderation,
@@ -218,14 +222,14 @@ i.icon.icon-room {
 #room .app-right .cm.emote,
 #room .app-right .cm.user-mentioned,
 #room .app-right .cm-system,
-#msg{
+#msg {
     background: rgb(26, 3, 4) !important;
 }
 #chat-messages .cm:not(.log):hover {
     transform: translate(5px, -5px);
     background-color: rgba(53, 6, 8, .4);
 }
-#room .app-right .cm.mention {  
+#room .app-right .cm.mention {
     background: linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
 #chat-input,
@@ -283,61 +287,61 @@ i.icon.icon-room {
 /* Footer Text */
 
 #your-active-playlist span {
-left: 5px !important;}
-
+    left: 5px !important;
+}
 #your-next-media span {
-left: 20px !important;}
-
+    left: 20px !important;
+}
 #your-active-playlist span,
 #your-next-media span {
     top: 18px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
-    color: rgb(240,240,240);
+    color: rgb(240, 240, 240);
 }
 /* Vote & DJ Buttons */
 
 #woot .bottom,
 #grab .bottom,
 #meh .bottom {
-background: transparent !important;
+    background: transparent !important;
 }
 #woot {
-border-radius: 50px 0 0 50px;
-border-left: 2px solid rgb(255, 255, 255);
+    border-radius: 50px 0 0 50px;
+    border-left: 2px solid rgb(255, 255, 255);
 }
 #meh {
-border-radius: 0 50px 50px 0;
-border-right: 2px solid rgb(255, 255, 255);
+    border-radius: 0 50px 50px 0;
+    border-right: 2px solid rgb(255, 255, 255);
 }
 #woot,
 #grab,
 #meh {
-border-top: 2px solid rgb(255, 255, 255);
-border-bottom: 2px solid rgb(255, 255, 255);
-margin: 0 !important;
-background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
-box-shadow: inset 0 0 10px rgb(255, 255, 255) !important;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 0 !important;
+    background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255) !important;
 }
 #woot.selected {
-background: rgb(144, 173, 47) !important;
+    background: rgb(144, 173, 47) !important;
 }
 #grab.selected {
-background: rgb(170, 116, 255) !important;
+    background: rgb(170, 116, 255) !important;
 }
 #meh.selected {
-background: rgb(196, 46, 59) !important;
+    background: rgb(196, 46, 59) !important;
 }
 #dj-button {
-background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
-border: 2px solid rgb(255, 255, 255) !important;
+    background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
 }
 #dj-button,
-#dj-button .left{
-border-radius: 100px;
-box-shadow: inset 0 0 10px rgb(255, 255, 255)!important;
+#dj-button .left {
+    border-radius: 100px;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255)!important;
 }
 #dj-button .left {
-border-right: 2px solid rgb(255, 255, 255)!important;
+    border-right: 2px solid rgb(255, 255, 255)!important;
 }
 /* Scrollbars */
 
