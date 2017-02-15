@@ -249,25 +249,15 @@ i.icon.icon-room {
     border-radius: 0 0 10px 10px;
 } 
 #user-rollover .actions,
-#user-rollover .actions .action.giftsub,
 #user-rollover .actions .action.giftsub:hover,
-#user-rollover .actions .action.skip,
 #user-rollover .actions .action.skip:hover,
-#user-rollover .actions .action.mention,
 #user-rollover .actions .action.mention:hover, 
-#user-rollover .actions .action.ignore,
 #user-rollover .actions .action.ignore:hover
-#user-rollover .actions .action.gift,
 #user-rollover .actions .action.gift:hover,
-#user-rollover .actions .action.friend,
 #user-rollover .actions .action.friend:hover,
-#user-rollover .actions .action.mod-dj,
 #user-rollover .actions .action.mod-dj:hover,
-#user-rollover .actions .action.mod-staff,
 #user-rollover .actions .action.mod-staff:hover,
-#user-rollover .actions .action.mod-mute,
 #user-rollover .actions .action.mod-mute:hover,
-#user-rollover .actions .action.mod-ban,
 #user-rollover .actions .action.mod-ban:hover {
     background: rgb(53, 6, 8);
 }
