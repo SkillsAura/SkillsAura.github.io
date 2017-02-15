@@ -135,6 +135,9 @@
 #user-rollover.id-22954907 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/dtTGOx7.png);
 }
+#chat [data-cid^="22954907-"] span.un.clickable {
+    color: rgb(255, 105, 180) !important;
+}
 /* ArkhamBot [17969387] */
 
 #chat-messages .fromID-17969387 .badge-box i,
