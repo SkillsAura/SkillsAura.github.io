@@ -266,49 +266,23 @@ display: none !important;
 }
 /* Chat */
 
-#room .app-right {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .5) 0, rgba(53, 6, 8, .5) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.log {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.message {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.moderation {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.moderation {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.user-action {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#msg {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
-}
-#room .app-right .cm.emote {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
+#room .app-right ,
+#room .app-right .cm.log,
+#room .app-right .cm.message,
+#room .app-right .cm.moderation,
+#room .app-right .cm.user-action,
+#room .app-right .cm.emote,
+#room .app-right .cm.user-mentioned,
+#room .app-right .cm-system,
+#msg{
+    background: rgb(26, 3, 4) !important;
 }
 #chat-messages .cm:not(.log):hover {
     transform: translate(5px, -5px);
     background-color: rgba(53, 6, 8, .4);
 }
-#room .app-right .cm.mention {
-    background: -webkit-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    /* For Safari 5.1 to 6.0 */
-    
-    background: -o-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    /* For Opera 11.1 to 12.0 */
-    
-    background: -moz-linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    /* For Firefox 3.6 to 15 */
-    
+#room .app-right .cm.mention {  
     background: linear-gradient(-90deg, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    /* Standard syntax */
-}
-#room .app-right .cm.user-mentioned {
-    background: linear-gradient(to bottom, rgba(53, 6, 8, .4) 0, rgba(53, 6, 8, .4) 100%), url(http://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png) !important;
 }
 #chat-input,
 #import-youtube .button,
