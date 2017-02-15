@@ -5,12 +5,12 @@
 
 /* May or may not keep this */
 
-@keyframes spinCycle {
+@keyframes colorChange {
     from { filter: hue-rotate(0deg); -webkit-filter: hue-rotate(0deg) }
     to   { filter: hue-rotate(360deg); -webkit-filter: hue-rotate(360deg) }
 }
 .room-background {
-    animation: 10s linear 0s infinite spinCycle;
+    animation: 10s linear 0s infinite colorChange;
 }
 /* User Menus */
 
@@ -37,7 +37,7 @@
 }
 #app-menu,
 #app-menu .list {
-    max-width: 400px!important;
+    max-width: 400px !important;
 }
 .grid .cell {
     border-radius: 25px 25px 25px 25px;
@@ -74,11 +74,15 @@ span.refresh {
 
 .experience .xp .bar,
 .experience .xp .bar .progress {
-    border-radius: 25px 5px 25px 5px!important;
+    border-radius: 100px !important;
+}
+.experience .xp .bar .progress {
+    background: #00A7FA;
+    box-shadow: 0 0 50px 5px rgb(0, 167, 250);
 }
 #footer-user .info .meta .bar,
 #footer-user .info .meta .bar .progress {
-    border-radius: 25px 5px 25px 5px!important;
+    border-radius: 100px !important;
 }
 /* Room Background */
 
@@ -110,13 +114,13 @@ i.icon.icon-room {
 #room-bar:hover>#room-host,
 #room-bar>#room-name {
     opacity: 0!important;
-    transition: opacity .25s!important;
+    transition: opacity .25s !important;
 }
 #room-bar:hover>#room-name,
 #room-bar>#room-host {
     opacity: 1!important;
-    transition: opacity .25s!important;
-    transition-delay: .25s!important;
+    transition: opacity .25s !important;
+    transition-delay: .25s !important;
 }
 #room-bar>#room-host,
 #room-bar>#room-name {
@@ -131,8 +135,8 @@ i.icon.icon-room {
 #room-host .username {
     color: rgb(240, 240, 240);
     font-family: 'Orbitron', Orbitron-Regular;
-    font-weight: regular!important;
-    font-size: 19px!important;
+    font-weight: regular !important;
+    font-size: 19px !important;
 }
 @-webkit-keyframes glow {
     to {
@@ -167,7 +171,7 @@ i.icon.icon-room {
 }
 #rcs-progress-container .bar {
     background: linear-gradient(to right, rgba(232, 61, 5, 1) 0, rgba(215, 118, 37, 1) 100%)!important;
-    box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
+    box-shadow: 0 0 10px rgba(200, 48, 2, 1) !important;
 }
 /* App Header Buttons Selected */
 
@@ -178,8 +182,8 @@ i.icon.icon-room {
 #chat-button.header-panel-button.selected,
 #history-button.selected{
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
 }
 /* Now playing song | Now playing DJ text edit */
 
@@ -251,10 +255,10 @@ i.icon.icon-room {
 #history-panel,
 #playlist-panel {
     background: rgba(53, 6, 8, .75);
-    text-shadow: 1px -1px #000000;
+    text-shadow: 1px -1px rgb(0, 0, 0);
 }
 #playlist-menu .title {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 #playlist-menu {
     background: rgba(53, 6, 8, .8);
@@ -289,6 +293,51 @@ left: 20px !important;}
     top: 18px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240,240,240);
+}
+/* Vote & DJ Buttons */
+
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+background: transparent !important;
+}
+#woot {
+border-radius: 50px 0 0 50px;
+border-left: 2px solid rgb(255, 255, 255);
+}
+#meh {
+border-radius: 0 50px 50px 0;
+border-right: 2px solid rgb(255, 255, 255);
+}
+#woot,
+#grab,
+#meh {
+border-top: 2px solid rgb(255, 255, 255);
+border-bottom: 2px solid rgb(255, 255, 255);
+margin: 0 !important;
+background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
+box-shadow: inset 0 0 10px rgb(255, 255, 255) !important;
+}
+#woot.selected {
+background: rgb(144, 173, 47) !important;
+}
+#grab.selected {
+background: rgb(170, 116, 255) !important;
+}
+#meh.selected {
+background: rgb(196, 46, 59) !important;
+}
+#dj-button {
+background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
+border: 2px solid rgb(255, 255, 255) !important;
+}
+#dj-button,
+#dj-button .left{
+border-radius: 100px;
+box-shadow: inset 0 0 10px rgb(255, 255, 255)!important;
+}
+#dj-button .left {
+border-right: 2px solid rgb(255, 255, 255)!important;
 }
 /* Scrollbars */
 
