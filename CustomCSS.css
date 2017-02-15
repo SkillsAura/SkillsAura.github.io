@@ -2,7 +2,7 @@
 @import url("https://skillsaura.github.io/CustomCSSstaff.css");
 @import url("https://skillsaura.github.io/CustomCSSusericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
-/* ------------------------------ Interface ------------------------------ */
+
 /* User Menus */
 
 #user-menu {
@@ -130,7 +130,6 @@ i.icon.icon-room {
         text-shadow: 0 0 35px rgba(250, 250, 250, 1);
     }
 }
-
 /* App Header */
 .app-header {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
@@ -173,7 +172,6 @@ i.icon.icon-room {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
-
 /* Now playing song | Now playing DJ text edit */
 
 #now-playing-bar > #now-playing-media,
@@ -205,14 +203,6 @@ i.icon.icon-room {
     -o-text-overflow: clip;
     text-overflow: clip;
     white-space: pre;
-}
-.icon-current-dj {
-display: none !important;
-} 
-/* Playback Video Area */
-
-#playback .background {
-    display: none !important;
 }
 /* Chat */
 
@@ -256,7 +246,6 @@ display: none !important;
     border-radius: 30px;
     background: rgba(53, 6, 8, 1) !important;
 }
-
 /* Playlist/History Menu */
 
 #history-panel,
@@ -310,12 +299,6 @@ display: none !important;
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
-#your-next-media i {
-    display: none !important;
-}
-#your-active-playlist i {
-    display: none !important;
-}
 /* Scrollbars */
 
 #chat-messages::-webkit-scrollbar,
@@ -339,6 +322,13 @@ display: none !important;
     border-radius: 5px;
 }
 
+/* Removing Plug Icons */
+#your-next-media i,
+#your-active-playlist i,
+#playback .background,
+.icon-current-dj {
+    display: none !important;
+}
 /* TEMP MADDIE TROLL CODE 5382369*/
 
 #chat [data-cid^="5382369-"] span.un.clickable {
