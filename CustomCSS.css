@@ -164,8 +164,6 @@ i.icon.icon-room {
         text-shadow: 0 0 40px rgba(255, 255, 255, 1);
     }
 }
-/* App-Header */
-
 .app-header {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
 }
@@ -180,9 +178,8 @@ i.icon.icon-room {
     border-right: 1px solid black;
 }
 #chat-button {
-    background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-right: 1px solid black;
-    width: 50px;
+    height: 54px; 
 }
 #app-menu.in-room {
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
@@ -202,12 +199,13 @@ i.icon.icon-room {
 #waitlist-button.header-panel-button.selected,
 #friends-button.header-panel-button.selected,
 #rcs-appright-button.header-panel-button.selected,
-#history-button.selected,
-.header-panel-button.selected{
+#chat-button.header-panel-button.selected,
+#history-button.selected{
     background: linear-gradient(to top, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%);
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+
 /* Now playing song | Now playing DJ text edit */
 
 #now-playing-bar > #now-playing-media,
