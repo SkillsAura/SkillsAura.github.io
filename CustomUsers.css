@@ -142,6 +142,20 @@
 }
 /* No badge (Not Working) */
 
+.badge-box.no-badge i {
+     background: url(https://i.imgur.com/ugMPziL.png) !important;
+} 
+
+.badge-box.no-badge i {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    border: none;
+    background-position: relative;
+    background-repeat: no-repeat !important;
+} 
 
 /* Remove badge background */
 
