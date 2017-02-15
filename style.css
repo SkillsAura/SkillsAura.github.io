@@ -287,7 +287,7 @@ i.icon.icon-room {
 #user-rollover .actions .mod-staff:hover .icon-staff,
 #user-rollover .actions .mod-mute:hover .icon-mute-big,
 #user-rollover .actions .mod-ban:hover .icon-ban,
-.thumb.background {
+.thumb .background {
     transform: scale(1.2);
     overflow: hidden; 
 } 
