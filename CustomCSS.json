@@ -13,6 +13,19 @@
         "allowShowingMehs":true,
         "forceSmartVote":false
     },
+    "images":{
+        "background":null,
+        "playback":null,
+        "admin":null,
+        "ambassador":null,
+        "host":"https://i.imgur.com/wnDrBL6.png",
+        "cohost":"https://i.imgur.com/pjmUnwA.png",
+        "manager":null,
+        "bouncer":null,
+        "rdj":null,
+        "subscriber":null,
+        "silversubscriber":null
+    },
     "emotes":{
         "thepanda":"https://i.imgur.com/Qtb04lx.png",
         "cano":"https://i.imgur.com/Y60lO61.png",
