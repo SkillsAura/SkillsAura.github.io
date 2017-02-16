@@ -12,6 +12,50 @@
     font-style: normal;
     font-weight: bold;
 }
+/* JordanThePanda | Roboto | Arkhambot - Rainbow Hover */
+
+#user-rollover.id-17969387 .username:hover,
+#user-rollover.id-22670452 .username:hover,
+#user-rollover.id-6137690 .username:hover,
+#chat [data-cid^="17969387-"] span.un.clickable:hover,
+#chat [data-cid^="22670452-"] span.un.clickable:hover,
+#chat [data-cid^="6137690-"] span.un.clickable:hover{
+animation:rainbow 1s infinite;
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+/* JordanThePanda | Roboto | Arkhambot - Rainbow  */
+
+#user-rollover.id-17969387 .username,
+#user-rollover.id-6137690 .username,
+#user-rollover.id-22670452 .username,
+#chat [data-cid^="17969387-"] span.un.clickable,
+#chat [data-cid^="6137690-"] span.un.clickable,
+#chat [data-cid^="22670452-"] span.un.clickable{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/* Maddie & Jack Pink Name*/
+
+#chat [data-cid^="22954907-"] span.un.clickable,
+#chat [data-cid^="5382369-"] span.un.clickable {
+    color: rgb(255, 105, 180) !important;
+}
+
 /* Staff Icons */
 
 /* RDJ 
