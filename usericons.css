@@ -115,9 +115,6 @@
 .cm.id-6068715 .from .un.clickable:before {
     content: url("https://i.imgur.com/P3X1YFk.png") !important;
     top: 3px;
-    right: 17px;
-    position: absolute;
-}
-.cm.id-6068715 .from .icon-chat-dj {
-    margin-left: 15px
+    right: 3px;
+    position: relative;
 }
