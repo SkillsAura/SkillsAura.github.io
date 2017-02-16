@@ -58,24 +58,40 @@ animation:rainbow 1s infinite;
 
 /* Staff Icons */
 
+/* Host Badge */
+
+.icon-chat-host {
+    background: url(https://i.imgur.com/wnDrBL6.png);
+} 
+/* Co-Host Badge */
+
+.icon-chat-cohost {
+    background: url(https://i.imgur.com/6MfwWsg.png);
+} 
  /* Manager Badge */
+
 .icon-chat-manager {
     background: url(https://i.imgur.com/SsLelzn.png);
 } 
-
 /* Bouncer Badge*/
+
 .icon-chat-bouncer {
     background: url(https://i.imgur.com/jAXifWz.png);
 } 
-
 /* RDJ Badge */
+
 .icon-chat-dj {
     background: url(https://i.imgur.com/Qs9vuFU.png);
 } 
-
 /* Gold Subscriber Badge */
+
 .icon-chat-subscriber {
      background: url(https://i.imgur.com/ax01SeU.png);
+} 
+/* Silver Subscriber Badge (Not Yet Decided) */
+
+.icon-chat-silver-subscriber {
+    background: url(#);
 } 
 
 
