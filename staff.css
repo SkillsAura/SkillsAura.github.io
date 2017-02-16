@@ -58,16 +58,6 @@ animation:rainbow 1s infinite;
 
 /* Staff Icons */
 
-/* Host Badge */
-
-.icon-chat-host {
-    background: url(https://i.imgur.com/wnDrBL6.png);
-} 
-/* Co-Host Badge */
-
-.icon-chat-cohost {
-    background: url(https://i.imgur.com/6MfwWsg.png);
-} 
  /* Manager Badge */
 
 .icon-chat-manager {
