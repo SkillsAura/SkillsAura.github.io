@@ -1,3 +1,13 @@
+/* Raptorella [13503067] */
+
+#chat-messages .fromID-13503067 .badge-box i,
+#chat-messages .id-13503067 .badge-box i,
+#user-rollover.id-13503067 .badge-box > i.bdg,
+/* Skye Guy [15731737] */
+
+#chat-messages .fromID-15731737 .badge-box i,
+#chat-messages .id-15731737 .badge-box i,
+#user-rollover.id-15731737 .badge-box > i.bdg,
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
 #chat-messages .fromID-22670452 .badge-box i,
@@ -65,6 +75,21 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+
+/* Raptorella [13503067] */
+
+#chat-messages .fromID-13503067 .badge-box i,
+#chat-messages .id-13503067 .badge-box i,
+#user-rollover.id-13503067 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/EAd410E.gif);
+}
+/* Skye Guy [15731737] */
+
+#chat-messages .fromID-15731737 .badge-box i,
+#chat-messages .id-15731737 .badge-box i,
+#user-rollover.id-15731737 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/RZq4bfm.gif);
+}
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
 #chat-messages .fromID-22670452 .badge-box i,
@@ -77,14 +102,14 @@
 #chat-messages .fromID-6068715 .badge-box i,
 #chat-messages .id-6068715 .badge-box i,
 #user-rollover.id-6068715 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/xmMuxVo.png);
+    background-image: url(https://i.imgur.com/IVHSF00.png);
 }
 /* |V|cNerdx [5676670] */
 
 #chat-messages .fromID-5676670 .badge-box i,
 #chat-messages .id-5676670 .badge-box i,
 #user-rollover.id-5676670 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/kdIuFtb.png);
+    background-image: url(https://i.imgur.com/CJseu6y.png);
 }
 /* samanthalolz  [13490395] */
 
@@ -145,7 +170,7 @@
 /* No badge (Not Working) */
 
 .badge-box.no-badge i {
-    background: url(https://i.imgur.com/ugMPziL.png) !important;
+    background: url(https://i.imgur.com/bEaAOin.png) !important;
 }
 .badge-box.no-badge i {
     background-size: cover;
