@@ -1,7 +1,7 @@
 {
     "room":"♫ ArkhamNetwork ♫",
     "author":"ArhkamBot",
-    "icon":"https://i.imgur.com/pp5bhiz.png",
+    "icon":null,
     "css":"https://skillsaura.github.io/style.css",
     "rules":{
         "allowAutorespond":true,
@@ -31,12 +31,12 @@
         "playback":null,
         "admin":null,
         "ambassador":null,
-        "host":"https://i.imgur.com/wnDrBL6.png",
-        "cohost":"https://i.imgur.com/pjmUnwA.png",
-        "manager":"https://i.imgur.com/6MfwWsg.png",
-        "bouncer":"https://i.imgur.com/jAXifWz.png",
-        "rdj":"https://i.imgur.com/Qs9vuFU.png",
-        "subscriber":"https://i.imgur.com/ax01SeU.png",
+        "host":null,
+        "cohost":null,
+        "manager":null,
+        "bouncer":null,
+        "rdj":null,
+        "subscriber":null,
         "silversubscriber":null
     },
     "emotes":{
