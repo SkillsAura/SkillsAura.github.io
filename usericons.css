@@ -32,7 +32,7 @@
 /* 22492506 | TheReturningVoid */
 
 .cm.id-22492506 .from .icon-chat-dj:before {
-    content: url(https://i.imgur.com/ChnKtz9.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
