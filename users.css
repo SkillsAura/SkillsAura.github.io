@@ -123,7 +123,7 @@
 #chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i,
 #user-rollover.id-8452233 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/vWJGA4I.png);
+    background-image: url(https://i.imgur.com/sQY3pxD.png);
 }
 /* Skorpion9001 [18182332] */
 
@@ -151,7 +151,7 @@
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/oxDg9kw.gif);
+    background-image: url(https://i.imgur.com/teWZI8q.gif);
 }
 /* Gay Peter Pan [22954907] */
 
@@ -187,8 +187,8 @@
 .badge-box {
     background: transparent !important;
 }
-
 /* JordanThePanda|Roboto|Arkhambot Rainbow Hover */
+
 #user-rollover.id-17969387 .username:hover,
 #user-rollover.id-22670452 .username:hover,
 #user-rollover.id-6137690 .username:hover,
@@ -211,8 +211,8 @@ animation:rainbow 1s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
-
 /* Mr.Roboto | Jordan Name */
+
 #user-rollover.id-17969387 .username,
 #user-rollover.id-6137690 .username,
 #user-rollover.id-22670452 .username,
@@ -225,36 +225,9 @@ animation:rainbow 1s infinite;
     -webkit-background-clip: text;
     background-clip: text;
 }
+/* Maddie & Jack Pink Name*/
 
-/* TEMP MADDIE TROLL CODE 5382369*/
 #chat [data-cid^="22954907-"] span.un.clickable,
-#chat [data-cid^="5382369-"] span.un.clickable{
+#chat [data-cid^="5382369-"] span.un.clickable {
     color: rgb(255, 105, 180) !important;
 }
-#chat [data-cid^="5382369-"] span.un.clickable:hover {
-    color: rgba(89, 48, 1, 1) !important;
-}
-
-/*(.cm.id-5382369 .from .un.clickable:before {
-    content: url("https://i.imgur.com/qhsMrdF.png") !important;
-    top: 0px;
-    right: 3px;
-    position: relative;
-} 
-/*#chat-messages .fromID-5382369 .badge-box i,
-#chat-messages .id-5382369 .badge-box i,
-#user-rollover.id-5382369 .badge-box > i.bdg {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border: none;
-    background-position: initial;
-    background-repeat: no-repeat !important;
-}
-#chat-messages .fromID-5382369 .badge-box i,
-#chat-messages .id-5382369 .badge-box i,
-#user-rollover.id-5382369 .badge-box > i.bdg {
-    background-image: url('https://i.imgur.com/NzFSjbK.gif');
-} */
