@@ -2,7 +2,7 @@
 /* 26114230  | Zutherion */
 
 .cm.id-26114230 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -12,7 +12,7 @@
 /* 21864210 | christinelolz */
 
 .cm.id-21864210 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -22,7 +22,7 @@
 /* 222561955 | Turbodude106 */
 
 .cm.id-222561955 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -32,7 +32,7 @@
 /* 22492506 | TheReturningVoid */
 
 .cm.id-22492506 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url(https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -42,7 +42,7 @@
 /* 21093072 | SlowKyile */
 
 .cm.id-21093072 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -52,7 +52,7 @@
 /* 13503067 | Raptorella */
 
 .cm.id-13503067 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -62,7 +62,7 @@
 /* 21701532 | mr_x01 */
 
 .cm.id-21701532 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -72,7 +72,7 @@
 /* 5139399  | darkmaster0270 */
 
 .cm.id-5139399 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -82,7 +82,7 @@
 /* |V|cNerdx [5676670] */
 
 .cm.id-5676670 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/7IS25nR.png") !important;
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
     right: 17px;
     position: absolute;
 }
@@ -90,30 +90,24 @@
     margin-left: 16px;
 }
 /* Other Custom Badges */
-/* Mr. Roboto | TFS Nᵉᵗʷᵒʳᵏ [6137690] */
 
-.cm.id-6137690 .from .icon-chat-bouncer:before {
-    content: url("https://i.imgur.com/fmkQHcL.png") !important;
-    right: 17px;
-    position: absolute;
-}
-.cm.id-6137690 .from .icon-chat-bouncer {
-    margin-left: 16px
-}
+/* Mr. Roboto | TFS Nᵉᵗʷᵒʳᵏ [6137690] */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
+.cm.id-6137690 .from .icon-chat-bouncer:before,
 .cm.id-22670452 .from .icon-chat-dj:before {
-    content: url("https://i.imgur.com/fmkQHcL.png") !important;
+    content: url("https://i.imgur.com/1n9cail.png") !important;
     right: 17px;
     position: absolute;
 }
-.cm.id-22670452 .from .icon-chat-dj {
+.cm.id-22670452 .from .icon-chat-dj,
+.cm.id-6137690 .from .icon-chat-bouncer {
     margin-left: 16px
 }
 /*  KaosBass [6068715] */
 
 .cm.id-6068715 .from .un.clickable:before {
-    content: url("https://i.imgur.com/P3X1YFk.png") !important;
+    content: url("https://i.imgur.com/XlRa1YI.png") !important;
     top: 3px;
     right: 3px;
     position: relative;
