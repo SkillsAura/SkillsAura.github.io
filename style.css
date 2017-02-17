@@ -2,45 +2,7 @@
 @import url("https://skillsaura.github.io/staff.css");
 @import url("https://skillsaura.github.io/usericons.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
-/* May or may not keep this */
-/* User Menus */
 
-#user-menu {
-    background: rgba(53, 6, 8, .8);
-}
-#user-view {
-    background: rgba(53, 6, 8, 0.75) !important;
-}
-.container .header span {
-    color: #ffffff;
-}
-#user-friends .list .row,
-#user-view .cell .top {
-    opacity: .6;
-    border-radius: 90px;
-    transition: border-radius .2s ease-out;
-    background: 0 0;
-}
-#user-friends .list .row:hover,
-#user-view .cell:hover .top,
-#user-view .selected .top {
-    opacity: 1
-}
-#app-menu,
-#app-menu .list {
-    max-width: 400px !important;
-}
-.grid .cell {
-    border-radius: 25px 25px 25px 25px;
-}
-.grid .cell .meta .host,
-.item span,
-.cap .title,
-.cap .value,
-label,
-span.refresh {
-    color: #ffffff !important;
-}
 /* User List Hover */
 
 #user-lists .list .user:hover {
@@ -55,40 +17,6 @@ top: 10px;
 
 #user-lists .list.staff .group{
     background: rgba(53, 6, 8, 0.75) !important;   
-}
-/* Shop/Inventory */
-
-#user-inventory .cell.selected .top,
-#user-inventory .cell:hover>.top,
-#user-store .cell.selected .top,
-#user-store .cell:hover>.top {
-    border-radius: 12px;
-    background: transparent !important;
-}
-#user-inventory .cell,
-#user-store .cell,
-#user-store .cell .top {
-    border-radius: 100px;
-    background: transparent !important;
-}
-#user-store .misc .cell,
-#user-store .misc .cell .title-bar {
-    border-radius: 0;
-    background: transparent !important;
-}
-/* XP Bars */
-
-.experience .xp .bar,
-.experience .xp .bar .progress {
-    border-radius: 100px !important;
-}
-.experience .xp .bar .progress {
-    background: #00A7FA;
-    box-shadow: 0 0 50px 5px rgb(0, 167, 250);
-}
-#footer-user .info .meta .bar,
-#footer-user .info .meta .bar .progress {
-    border-radius: 100px !important;
 }
 /* Room Background */
 
@@ -128,7 +56,7 @@ i.icon.icon-room {
     transition: opacity .25s !important;
     transition-delay: .25s !important;
 }
-#room-bar>#room-host,
+#room-bar>#room-host, 
 #room-bar>#room-name {
     left: 110px;
     top: -2px !important;
@@ -296,46 +224,6 @@ i.icon.icon-room {
 #user-rollover .actions .mod-ban:hover .icon-ban {
     transform: scale(1.2);   
 }
-/* blabla bla */
-
-#chat-input,
-#import-youtube .button,
-#import-youtube .youtube-input,
-#input-room-name,
-#playlist-import-panel .button,
-#room-info .input-background,
-#user-avatars .tab-menu button,
-#user-friends .list .row .buttons button,
-#user-friends .search,
-#user-friends .tab-menu button,
-#user-lists .list-header .input-background,
-.app-right .friends .list-header .input-background,
-.dialog-input-background,
-.input-background,
-.tab-menu button,
-.user-content.profile .meta .blurb .box,
-.user-content.profile .meta .blurb input,
-#filter-bar,
-#search-bar {
-    border-radius: 30px;
-    background: rgba(53, 6, 8, 1) !important;
-}
-/* Playlist/History Menu */
-
-#history-panel,
-#playlist-panel {
-    background: rgba(53, 6, 8, .75);
-    text-shadow: 1px -1px rgb(0, 0, 0);
-}
-#playlist-menu .title {
-    color: rgb(255, 255, 255);
-}
-#playlist-menu {
-    background: rgba(53, 6, 8, .8);
-}
-#search {
-    background: rgba(53, 6, 8, .8);
-}
 /* Footer */
 
 #footer {
@@ -363,73 +251,6 @@ i.icon.icon-room {
     top: 18px !important;
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240, 240, 240);
-}
-/* Vote & DJ Buttons */
-
-#woot .bottom,
-#grab .bottom,
-#meh .bottom {
-    background: transparent !important;
-}
-#woot {
-    border-radius: 50px 0 0 50px;
-    border-left: 2px solid rgb(255, 255, 255);
-}
-#meh {
-    border-radius: 0 50px 50px 0;
-    border-right: 2px solid rgb(255, 255, 255);
-}
-#woot,
-#grab,
-#meh {
-    border-top: 2px solid rgb(255, 255, 255);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    margin: 0 !important;
-    background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
-    box-shadow: inset 0 0 10px rgb(255, 255, 255) !important;
-}
-#woot.selected {
-    background: rgb(144, 173, 47) !important;
-}
-#grab.selected {
-    background: rgb(170, 116, 255) !important;
-}
-#meh.selected {
-    background: rgb(196, 46, 59) !important;
-}
-#dj-button {
-    background: linear-gradient(135deg, rgba(127, 127, 127, .3), rgba(76, 76, 76, .3)) !important;
-    border: 2px solid rgb(255, 255, 255) !important;
-}
-#dj-button,
-#dj-button .left {
-    border-radius: 100px;
-    box-shadow: inset 0 0 10px rgb(255, 255, 255)!important;
-}
-#dj-button .left {
-    border-right: 2px solid rgb(255, 255, 255)!important;
-}
-/* Scrollbars */
-
-#chat-messages::-webkit-scrollbar,
-#grab-rs-list::-webkit-scrollbar,
-#meh-rs-list::-webkit-scrollbar,
-#woot-rs-list::-webkit-scrollbar,
-.dialog::-webkit-scrollbar,
-.dropdown dd::-webkit-scrollbar {
-    width: 7px!important;
-    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .7);
-}
-#chat-messages::-webkit-scrollbar-thumb,
-#grab-rs-list::-webkit-scrollbar-thumb,
-#meh-rs-list::-webkit-scrollbar-thumb,
-#woot-rs-list::-webkit-scrollbar-thumb,
-.dialog::-webkit-thumb,
-.dropdown dd::-webkit-scrollbar-thumb,
-.jspDrag {
-    background: rgba(152, 0, 0, 1);
-    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
-    border-radius: 5px;
 }
 /* Removing Plug Icons */
 
