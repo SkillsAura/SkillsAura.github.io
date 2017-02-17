@@ -169,6 +169,12 @@ i.icon.icon-room {
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
+/* Chat Input Area */
+
+#chat-input {
+    border-radius: 30px;
+    background: rgba(53, 6, 8, 1) !important;
+}
 /* User-rollover Section */
 
 #user-rollover {
