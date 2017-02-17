@@ -90,18 +90,14 @@
     margin-left: 16px;
 }
 /* Other Custom Badges */
-
-/* Mr. Roboto | TFS Nᵉᵗʷᵒʳᵏ [6137690] */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
-.cm.id-6137690 .from .icon-chat-bouncer:before,
 .cm.id-22670452 .from .icon-chat-dj:before {
     content: url("https://i.imgur.com/1n9cail.png") !important;
     right: 17px;
     position: absolute;
 }
-.cm.id-22670452 .from .icon-chat-dj,
-.cm.id-6137690 .from .icon-chat-bouncer {
+.cm.id-22670452 .from .icon-chat-dj {
     margin-left: 16px
 }
 /*  KaosBass [6068715] */
