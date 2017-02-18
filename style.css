@@ -320,7 +320,7 @@ i.icon.icon-room {
 #dj-button.is-wait,
 #dj-button.is-leave,
 #dj-button.is-locked,
-#dj-button.is-quit{
+#dj-button.is-quit {
     background: transparent !important;
     border: 1px solid rgb(255, 255, 255) !important; 
     box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
@@ -330,9 +330,9 @@ i.icon.icon-room {
 #dj-button.is-leave,
 #dj-button.is-leave .left, 
 #dj-button.is-locked,
-#dj-button.is-locked .left
+#dj-button.is-locked .left,
 #dj-button.is-quit,
-#dj-button.is-quit .left{
+#dj-button.is-quit .left {
     border-radius: 100px;
 }
 #dj-button .left {
@@ -345,8 +345,8 @@ i.icon.icon-room {
 #dj-button.is-leave .left {
       background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
-#dj-button.is-locked .left,
-#dj-button.is-quit .left {
+#dj-button.is-quit .left,
+#dj-button.is-locked .left {
      background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
 /* Removing Plug Icons */
