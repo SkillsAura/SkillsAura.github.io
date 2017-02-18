@@ -12,9 +12,8 @@
     font-style: normal;
     font-weight: bold;
 }
-/* Maddie & Jack Pink Name*/
-
-#chat [data-cid^="22954907-"] span.un.clickable,
+/* Maddie Pink Name*/
+#user-rollover.id-5382369 .username,
 #chat [data-cid^="5382369-"] span.un.clickable {
     color: rgb(255, 105, 180) !important;
 }
