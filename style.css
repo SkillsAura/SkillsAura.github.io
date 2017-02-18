@@ -69,7 +69,7 @@ i.icon.icon-room {
 #room-host .username {
     color: rgb(240, 240, 240);
     font-family: 'Orbitron', Orbitron-Regular;
-    font-weight: regular !important;
+    font-weight: normal !important;
     font-size: 19px !important;
 }
 @-webkit-keyframes glow {
