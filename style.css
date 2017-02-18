@@ -334,6 +334,7 @@ i.icon.icon-room {
 }
 #dj-button .left {
     border-right: 1px solid rgb(255, 255, 255)!important;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
 }
 #dj-button.is-wait .left {
      background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
