@@ -258,6 +258,63 @@ i.icon.icon-room {
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240, 240, 240);
 }
+/* Vote & DJ Buttons */
+
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background: transparent !important;
+}
+#woot {
+    border-radius: 50px 0 0 50px;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+#meh {
+    border-radius: 0 50px 50px 0;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+#woot,
+#grab,
+#meh {
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 0 !important;
+    background: linear-gradient(135deg, rgba(127, 127, 127, .15), rgba(76, 76, 76, .15)) !important;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
+}
+#woot.selected {
+    animation:woot 5s infinite;
+}
+#woot:hover {
+    background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes woot{
+    0% {background-color: #008000;}
+    50% {background-color: #00E800;}
+    100% {background-color: #008000 ;}
+}
+#grab.selected {
+    animation:grab 5s infinite;
+}
+#grab:hover {
+     background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes grab{
+    0% {background-color: #4B0082;}
+    50% {background-color: #820BBB;}
+    100% {background-color: #4B0082;}
+}
+#meh.selected {
+   animation:meh 5s infinite;
+}
+#meh:hover {
+    background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes meh{
+    0% {background-color: #600000;}
+    50% {background-color: #FF0000;}
+    100% {background-color: #600000;}
+}
 /* Removing Plug Icons */
 
 #your-next-media i,
