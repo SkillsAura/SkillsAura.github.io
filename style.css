@@ -290,39 +290,31 @@ i.icon.icon-room {
     background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
 @keyframes woot{
-    0% {background-color: #006600;}
-    10% {background-color: #008000;}
-    20% {background-color: #009900;}
-    30% {background-color: #00b300;}
-    40% {background-color: #00cc00;}
-    50% {background-color: #00e600;}
-    60% {background-color: #00cc00;}
-    70% {background-color: #00b300;}
-    80% {background-color: #009900;}
-    90% {background-color: #008000;}
-    100% {background-color: #006600;}
+    0% {background-color: #00ff00;}
+    50% {background-color: #008000;}
+   100% {background-color: #00ff00;}
 }
 #grab.selected {
-    animation:grab 5s infinite;
+    animation:grab 3s infinite;
 }
 #grab:hover {
      background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
 @keyframes grab{
-    0% {background-color: #4B0082;}
-    50% {background-color: #820BBB;}
-    100% {background-color: #4B0082;}
+    0% {background-color: #9f1aff;}
+    50% {background-color: #3b0066;}
+    100% {background-color: #9f1aff;}
 }
 #meh.selected {
-   animation:meh 5s infinite;
+   animation:meh 3s infinite;
 }
 #meh:hover {
     background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
 @keyframes meh{
-    0% {background-color: #600000;}
-    50% {background-color: #FF0000;}
-    100% {background-color: #600000;}
+    0% {background-color: #ff0000;}
+    50% {background-color: #660000;}
+    100% {background-color: #ff0000;}
 }
 
 /* DJ join|leave|locked Buttons */
