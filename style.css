@@ -258,7 +258,7 @@ i.icon.icon-room {
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240, 240, 240);
 }
-/* Vote & DJ Buttons */
+/* Vote Buttons */
 
 #woot .bottom,
 #grab .bottom,
@@ -314,6 +314,34 @@ i.icon.icon-room {
     0% {background-color: #600000;}
     50% {background-color: #FF0000;}
     100% {background-color: #600000;}
+}
+/* DJ join|leave|locked Buttons */
+
+#dj-button.is-wait,
+#dj-button.is-leave,
+#dj-button.is-locked{
+    background: transparent !important;
+    border: 1px solid rgb(255, 255, 255) !important;   
+}
+#dj-button.is-wait,
+#dj-button.is-wait .left,
+#dj-button.is-leave,
+#dj-button.is-leave .left, 
+#dj-button.is-locked,
+#dj-button.is-locked .left {
+    border-radius: 100px;
+}
+#dj-button .left {
+    border-right: 1px solid rgb(255, 255, 255)!important;
+}
+#dj-button.is-wait .left {
+     background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+#dj-button.is-leave .left {
+      background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+#dj-button.is-locked .left {
+     background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
 /* Removing Plug Icons */
 
