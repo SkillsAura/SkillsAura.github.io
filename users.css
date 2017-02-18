@@ -179,7 +179,7 @@
     top: 0px;
     left: 0px;
     border: none;
-    background-position: relative;
+    background-position: center;
     background-repeat: no-repeat !important;
 }
 /* Remove badge background */
