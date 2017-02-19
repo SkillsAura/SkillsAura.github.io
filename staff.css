@@ -1,7 +1,7 @@
 /* Arkhambot [17969387] */
-
+#user-rollover.id-17969387.username,
 #chat [data-cid^="17969387-"] span.un.clickable {
-    color: color: rgb(100, 246, 133) !important;
+    color: rgb(100, 246, 133) !important;
 }
 #chat [data-cid^="17969387-"].emote {
     background: color: rgb(100, 246, 133) !important;
@@ -19,7 +19,7 @@
 }
 
 /* Thia_Fighter2 Event Winner Name*/
-#user-rollover.id-22670452.username,
-#chat [data-cid^="22670452-"] span.un.clickable {
+#user-rollover.id-6455498.username,
+#chat [data-cid^="6455498-"] span.un.clickable {
     color: rgb(0, 255, 255) !important;
 }
