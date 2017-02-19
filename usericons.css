@@ -1,4 +1,14 @@
 /* Custom Icon for event Winners */
+/* Thai_Fighter2 [6455498] */
+
+.cm.id-6455498 .from .icon-chat-dj:before {
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
+    right: 17px;
+    position: absolute;
+}
+.cm.id-26114230 .from .icon-chat-dj {
+    margin-left: 16px;
+}
 /* 26114230  | Zutherion */
 
 .cm.id-26114230 .from .icon-chat-dj:before {
