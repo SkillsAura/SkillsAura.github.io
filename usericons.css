@@ -1,11 +1,4 @@
 /* Custom Icon for event Winners */
-/* Test person [5311288] */
-cm.id-5311288 .from .un.clickable:after {
-    content: url("https://i.imgur.com/ChnKtz9.png") !important;
-    top: 3px;
-    right: -3px;
-    position: relative;
-}
 /* Thai_Fighter2 [6455498] */
 
 .cm.id-6455498 .from .un.clickable:after {
