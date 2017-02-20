@@ -351,6 +351,98 @@ i.icon.icon-room {
 #dj-button.is-locked .left {
      background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
+#history-panel,
+#playlist-panel {
+    background:  rgb(53, 6, 8);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+#playlist-menu .title {
+    color: rgb(255, 255, 255);
+}
+#playlist-menu {
+    background: rgb(26, 3, 4);
+}
+#search {
+position: relative;
+z-index: 9;
+background: rgb(53, 6, 8);
+width:500px;
+height:55px;
+}
+#search:before {
+content: "";
+position: absolute;
+z-index: -1;
+top: 0px;
+right: 81.9%;
+bottom: 0;
+left: 0;
+background: rgb(26, 3, 4);
+}
+.media-list .selected .actions,
+.media-list .actions {
+    background: rgb(53, 6, 8) !important;   
+}
+.menu .container .row:hover {
+    transform: translate(5px, -5px);    
+}
+.menu .container .row,
+.menu .container .row:hover {
+-webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+
+}
+ #search .menu:hover{
+    background: green !important;
+}
+/* Button/Text Areas */
+
+#chat-input,
+#import-youtube .button,
+#import-youtube .youtube-input,
+#input-room-name,
+#playlist-import-panel .button,
+#room-info .input-background,
+#user-avatars .tab-menu button,
+#user-friends .list .row .buttons button,
+#user-friends .search,
+#user-friends .tab-menu button,
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+.dialog-input-background,
+.input-background,
+.tab-menu button,
+.user-content.profile .meta .blurb .box,
+.user-content.profile .meta .blurb input,
+#filter-bar,
+#search-bar {
+    border-radius: 30px;
+    background: rgba(53, 6, 8, 1) !important;
+}
+/* Scrollbars */
+
+#chat-messages::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar {
+    width: 7px!important;
+    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .7);
+}
+#chat-messages::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+.jspDrag {
+    background: rgba(152, 0, 0, 1);
+    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .5);
+    border-radius: 5px;
+}
 /* Removing Plug Icons */
 
 #your-next-media i,
