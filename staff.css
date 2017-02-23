@@ -4,7 +4,7 @@
     color: rgb(100, 246, 133) !important;
 }
 #chat [data-cid^="17969387-"].emote {
-    background: color: rgb(100, 246, 133) !important;
+    color: rgb(100, 246, 133) !important;
     border-left: rgb(100, 246, 133) 3px solid !important;
 }
 #chat [data-cid^="17969387-"].emote .text {
