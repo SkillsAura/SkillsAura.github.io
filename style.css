@@ -236,6 +236,8 @@ i.icon.icon-room {
 #footer {
     background: linear-gradient(to bottom, rgba(152, 0, 0, 1) 0, rgba(53, 6, 8, 1) 100%)!important;
 }
+
+/* Playlist Men | History Menu */
 #playlist-button,
 #playlist-menu .menu .row.selected,
 .media-list .row.now-playing,
@@ -244,6 +246,30 @@ i.icon.icon-room {
 .media-list .selected .actions {
     background: linear-gradient(to bottom, rgba(232, 61, 5, 1) 0, rgba(215, 118, 37, 1) 100%)!important;
     box-shadow: 0 0 10px rgba(200, 48, 2, 1)!important;
+}
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon {
+    transform: scale(1.2);
+}
+#search-menu {
+    background: rgb(53, 6, 8);
+    border-radius: 20px;
+}
+#search-menu:hover>.selected,
+#search-menu .select,
+#search-menu li.last {
+    background: rgb(53, 6, 8);
+}
+#search-menu li:hover {
+    background: rgb(26, 3, 4);
 }
 /* Footer Text */
 
@@ -259,6 +285,8 @@ i.icon.icon-room {
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240, 240, 240);
 }
+
+
 /* Vote Buttons */
 
 #woot .bottom,
