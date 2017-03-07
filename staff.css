@@ -1,4 +1,4 @@
-/* Arkhambot [17969387] */
+/* Skills Chat Colour [17969387] */
 #user-rollover.id-17969387.username,
 #chat [data-cid^="17969387-"] span.un.clickable {
     color: rgb(100, 246, 133) !important;
@@ -8,6 +8,20 @@
     border-left: rgb(100, 246, 133) 3px solid !important;
 }
 #chat [data-cid^="17969387-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* ArkhamRobot [25096669] */
+#user-rollover.id-25096669.username,
+#chat [data-cid^="25096669-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="25096669-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="25096669-"].emote .text {
     color: rgb(100, 246, 133) !important;
     font-style: normal;
     font-weight: bold;
