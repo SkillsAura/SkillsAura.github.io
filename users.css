@@ -1,3 +1,8 @@
+/* ArkhamRobot [25096669] */
+
+#chat-messages .fromID-25096669 .badge-box i,
+#chat-messages .id-25096669 .badge-box i,
+#user-rollover.id-25096669 .badge-box > i.bdg,
 /* Alanvis100 [22640469] */
 
 #chat-messages .fromID-22640469 .badge-box i,
@@ -90,6 +95,12 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/* ArkhamRobot [25096669] */
+#chat-messages .fromID-25096669 .badge-box i,
+#chat-messages .id-25096669 .badge-box i,
+#user-rollover.id-25096669 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/FHjv5ki.png);
+}
 /* Alanvis100 [22640469] */
 
 #chat-messages .fromID-22640469 .badge-box i,
