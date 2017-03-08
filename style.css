@@ -14,7 +14,6 @@ top: 10px;
 #user-lists .list .user {
 top: 10px;
 }
-
 #user-lists .list.staff .group{
     background: rgba(53, 6, 8, 0.75) !important;   
 }
@@ -77,7 +76,6 @@ i.icon.icon-room {
     font-weight: normal !important;
     font-size: 19px !important;
 }
-
 /* App Header */
 
 .app-header {
@@ -238,6 +236,7 @@ i.icon.icon-room {
 }
 
 /* Playlist Men | History Menu */
+
 #playlist-button,
 #playlist-menu .menu .row.selected,
 .media-list .row.now-playing,
@@ -285,8 +284,6 @@ i.icon.icon-room {
     font: normal 16px/normal "Warnes", 'Orbitron', Orbitron-Regular;
     color: rgb(240, 240, 240);
 }
-
-
 /* Vote Buttons */
 
 #woot .bottom,
@@ -344,7 +341,6 @@ i.icon.icon-room {
     50% {background-color: #660000;}
     100% {background-color: #ff0000;}
 }
-
 /* DJ join|leave|locked Buttons */
 
 #dj-button.is-wait,
@@ -420,7 +416,6 @@ background: rgb(26, 3, 4);
     -moz-transition:        all 0.3s ease;
     -o-transition:          all 0.3s ease;
     transition:             all 0.3s ease;
-
 }
  #search .menu:hover{
     background: green !important;
