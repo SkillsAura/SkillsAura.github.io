@@ -1,4 +1,4 @@
-/* Skills Chat Colour [17969387] */
+/* Skills [17969387] */
 #user-rollover.id-17969387.username,
 #chat [data-cid^="17969387-"] span.un.clickable {
     color: rgb(100, 246, 133) !important;
@@ -33,19 +33,18 @@
     right: -3px;
     position: relative;
 }
-/* Maddie & Grace Pink Name*/ /*
+/* Maddie & Grace Pink Name*/ 
 #user-rollover.id-20789834 .username,
 #chat [data-cid^="20789834-"] span.un.clickable,
 #user-rollover.id-5382369 .username,
 #chat [data-cid^="5382369-"] span.un.clickable {
     color: rgb(255, 105, 180) !important;
-} */
+} 
 /* Thia_Fighter2 Event Winner Name*/
 #user-rollover.id-6455498.username,
 #chat [data-cid^="6455498-"] span.un.clickable {
     color: rgb(0, 255, 255) !important;
 }
-
 /* Rainbow Hover Chat Name for Kaos*/
 
 #user-rollover.id-6068715 .username:hover,
@@ -65,7 +64,6 @@ animation:rainbow 1s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
-
 /*  Rainbow Chat Name For Kaos  */
 
 #user-rollover.id-6068715 .username,
