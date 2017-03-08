@@ -51,8 +51,7 @@
         "ordna":"https://i.imgur.com/CulhHVt.png",
         "mms":"https://i.imgur.com/DTCfc5J.png"
     },
-    "autocomplete":{
-        
+    "autocomplete":{       
         "!cookie":0,
         "!dc":0,
         "!duel":0,
@@ -71,8 +70,7 @@
         "!song":0,
         "!taco":0,
         "!kiss":0,
-        "!youtube":0,
-        
+        "!youtube":0,      
         "!adblock":1,
         "!ask":1,
         "!beres":1,
@@ -87,8 +85,7 @@
         "!site":1,
         "!swaphelp":1,
         "!theme":1,
-        "!yt":1,
-        
+        "!yt":1,      
         "!add":2,
         "!ban":2,
         "!dueldelay":2,
@@ -102,8 +99,7 @@
         "!settings":2,
         "!skip":2,
         "!status":2,
-        "!whois":2,
-        
+        "!whois":2, 
         "!afklimit":3,
         "!afkreset":3,
         "!afktime":3,
@@ -128,7 +124,6 @@
         "!s":3,
         "!startlottery":3,
         "!timeguard":3,
-        "!voteskip":3
-    
+        "!voteskip":3  
     }
 }
