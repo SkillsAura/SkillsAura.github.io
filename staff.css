@@ -26,13 +26,6 @@
     font-style: normal;
     font-weight: bold;
 }
-/* Skill GF Icon */
-.cm.id-20789834 .from .un.clickable:after {
-    content: url("https://i.imgur.com/oBa8eet.gif") !important;
-    top: 3px;
-    right: -3px;
-    position: relative;
-}
 /* Maddie & Grace Pink Name*/ 
 #user-rollover.id-20789834 .username,
 #chat [data-cid^="20789834-"] span.un.clickable,
