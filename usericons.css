@@ -63,7 +63,7 @@
     right: -3px;
     position: relative;
 }
-/* 5139399  | darkmaster0270 */
+/* 5139399 | darkmaster0270 */
 
 .cm.id-5139399 .from .un.clickable:after {
     content: url("https://i.imgur.com/ChnKtz9.png") !important;
@@ -79,9 +79,7 @@
     right: -3px;
     position: relative;
 }
-
 /* Other Custom Badges */
-
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
 .cm.id-22670452 .from  .icon-chat-dj:before {
@@ -92,21 +90,11 @@
 .cm.id-22670452 .from .icon-chat-dj {
     margin-left: 16px
 }
-/*  KaosBass [6068715] */
-/*
-.cm.id-6068715 .from .un.clickable:before {
-    content: url("https://i.imgur.com/XlRa1YI.png") !important;
+/* Grace Icon */
+
+.cm.id-20789834 .from .un.clickable:after {
+    content: url("https://i.imgur.com/oBa8eet.gif") !important;
     top: 3px;
-    right: 3px;
+    right: -3px;
     position: relative;
 }
-*.
-/* ArkhamBot Bot Icon [17969387] */
-/*
-.cm.id-17969387 .from .un.clickable:before {
-    content: url("https://i.imgur.com/DrAAUCl.png") !important;
-    top: 0px;
-    right: 3px;
-    position: relative;
-}
-*/
