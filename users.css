@@ -1,3 +1,8 @@
+/* PumpkinNinja [7119719] */
+
+#chat-messages .fromID-7119719 .badge-box i,
+#chat-messages .id-7119719 .badge-box i,
+#user-rollover.id-v .badge-box > i.bdg,
 /* ArkhamRobot [25096669] */
 
 #chat-messages .fromID-25096669 .badge-box i,
@@ -89,6 +94,12 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/* PumpkinNinja [7119719] */
+#chat-messages .fromID-7119719 .badge-box i,
+#chat-messages .id-7119719 .badge-box i,
+#user-rollover.id-7119719 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/j9XgOmd.png);
+}
 /* ArkhamRobot [25096669] */
 #chat-messages .fromID-25096669 .badge-box i,
 #chat-messages .id-25096669 .badge-box i,
