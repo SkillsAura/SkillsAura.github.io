@@ -69,3 +69,104 @@ animation:rainbow 1s infinite;
     -webkit-background-clip: text;
     background-clip: text;
 }
+
+/* PLUG DJ EVENT TEMP GREEN /ME FOR HELPERS */
+
+/*  Maddie or Grace [20789834] */
+#user-rollover.id-20789834.username,
+#chat [data-cid^="20789834-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="20789834-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="20789834-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* Maddie or Grace [5382369] */
+#user-rollover.id-5382369.username,
+#chat [data-cid^="5382369-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="5382369-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="5382369-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* Jack AKA Daddy Republic [22954907] */
+#user-rollover.id-22954907.username,
+#chat [data-cid^="22954907-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="22954907-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="22954907-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* YouFoundSoccer [21169568] */
+#user-rollover.id-21169568.username,
+#chat [data-cid^="21169568-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="21169568-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="21169568-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* Alan [22640469] */
+#user-rollover.id-22640469.username,
+#chat [data-cid^="22640469-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="22640469-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="22640469-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* Me AKA JordanThePanda [22670452] */
+#user-rollover.id-22670452.username,
+#chat [data-cid^="22670452-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="22670452-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="22670452-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
+/* Samantha AKA Samanthalolz [13490395] */
+#user-rollover.id-13490395.username,
+#chat [data-cid^="13490395-"] span.un.clickable {
+    color: rgb(100, 246, 133) !important;
+}
+#chat [data-cid^="13490395-"].emote {
+    color: rgb(100, 246, 133) !important;
+    border-left: rgb(100, 246, 133) 3px solid !important;
+}
+#chat [data-cid^="13490395-"].emote .text {
+    color: rgb(100, 246, 133) !important;
+    font-style: normal;
+    font-weight: bold;
+}
