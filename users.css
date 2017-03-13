@@ -1,3 +1,8 @@
+/* Grace [20789834] */
+
+#chat-messages .fromID-20789834 .badge-box i,
+#chat-messages .id-20789834 .badge-box i,
+#user-rollover.id-20789834 .badge-box > i.bdg,
 /* PumpkinNinja [7119719] */
 
 #chat-messages .fromID-7119719 .badge-box i,
@@ -94,6 +99,12 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/* Grace [20789834] */
+#chat-messages .fromID-20789834 .badge-box i,
+#chat-messages .id-20789834 .badge-box i,
+#user-rollover.id-20789834 .badge-box > i.bdg {
+    background-image: url(htts://i.imgur.com/irOvFwa.jpg);
+}
 /* PumpkinNinja [7119719] */
 
 #chat-messages .fromID-7119719 .badge-box i,
