@@ -98,11 +98,3 @@
 .cm.id-22670452 .from .icon-chat-dj {
     margin-left: 16px
 }
-/* Grace Icon */
-
-.cm.id-20789834 .from .un.clickable:after {
-    content: url("https://i.imgur.com/oBa8eet.gif") !important;
-    top: 3px;
-    right: -3px;
-    position: relative;
-}
