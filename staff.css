@@ -1,5 +1,6 @@
 /* Skills [17969387] */
-#user-rollover.id-17969387.username,
+
+#user-rollover.id-17969387 .username,
 #chat [data-cid^="17969387-"] span.un.clickable {
     color: rgb(100, 246, 133) !important;
 }
@@ -13,7 +14,7 @@
     font-weight: bold;
 }
 /* ArkhamRobot [25096669] */
-#user-rollover.id-25096669.username,
+#user-rollover.id-25096669 .username,
 #chat [data-cid^="25096669-"] span.un.clickable {
     color: rgb(100, 246, 133) !important;
 }
