@@ -1,0 +1,50 @@
+/* Event Winners - Custom Icons Section */
+/* PumpkinNinja [7119719] */
+.cm.id-7119719 .from .un.clickable:after,
+
+/* Thai_Fighter2 [6455498] */
+.cm.id-6455498 .from .un.clickable:after,
+
+/* Zutherion [26114230] *
+.cm.id-26114230 .from .un.clickable:after, 
+
+/* christinelolz [21864210] */
+.cm.id-21864210 .from .un.clickable:after,
+
+/* Turbodude106 [222561955] */
+.cm.id-222561955 .from .un.clickable:after,
+
+/* TheReturningVoid [22492506] */
+.cm.id-22492506 .from .un.clickable:after,
+
+/* SlowKyile [21093072] */
+.cm.id-21093072 .from .un.clickable:after,
+
+/* Raptorella [13503067] */
+.cm.id-13503067 .from .un.clickable:after,
+
+/* mr_x01 [21701532] */
+.cm.id-21701532 .from .un.clickable:after,
+
+/* darkmaster0270 [5139399] */
+.cm.id-5139399 .from .un.clickable:after,
+
+/* |V|cNerdx [5676670] */
+.cm.id-5676670 .from .un.clickable:after {
+    content: url("https://i.imgur.com/ChnKtz9.png") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
+}
+
+/* Developer | Other Custom Icons Section */
+/* Jøґ∂αη†♄εℙαηḓα [22670452] */
+
+.cm.id-22670452 .from  .icon-chat-dj:before {
+    content: url("https://i.imgur.com/1eYsr84.png") !important;
+    right: 16px;
+    position: absolute;
+}
+.cm.id-22670452 .from .icon-chat-dj {
+    margin-left: 16px
+}
