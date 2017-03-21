@@ -1,0 +1,82 @@
+/* This section of code is due to be completely redone */
+
+@import url("https://SkillsAura.github.io/PlugUsers.css");
+@import url("https://SkillsAura.github.io/PlugStaff.css");
+@import url("https://SkillsAura.github.io/PlugUserIcons.css");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+/* Room Background */
+
+.room-background {
+    background-image: url(https://i.imgur.com/fSex6bQ.png) !important;
+}
+#playback .background {
+    display: none !important;
+}
+/* Room Icon */
+
+#room-host,
+#room-name {
+    left: 140px;
+}
+#room-bar .icon-room {
+    top: 8.5px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 160px;
+    height: 40px;
+}
+.icon-room {
+    background: url(https://i.imgur.com/zdXTEUJ.png) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 75%;
+}
+/* App Header */
+
+.app-header {
+    background: linear-gradient(to top, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%);
+}
+#rs-skip-button {
+    background: linear-gradient(to top, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+#history-button {
+    background: linear-gradient(to top, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#chat-button {
+    border-right: 1px solid black;
+    height: 54px;
+}
+#app-menu.in-room {
+    background: linear-gradient(to top, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%);
+}
+.button,
+#rcs-progress-container {
+    background: none !important;
+}
+#rcs-progress-container .bar {
+    background: linear-gradient(to right, rgba(153, 50, 204, 1) 0, rgba(191, 95, 255, 1) 100%)!important;
+    box-shadow: 0 0 10px rgba(200, 48, 2, 1) !important;
+}
+/* App Header Buttons Selected */
+
+#users-button.header-panel-button.selected,
+#waitlist-button.header-panel-button.selected,
+#friends-button.header-panel-button.selected,
+#rcs-appright-button.header-panel-button.selected,
+#chat-button.header-panel-button.selected,
+#history-button.selected {
+    background: linear-gradient(to top, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+/* Footer */
+
+#footer {
+    background: linear-gradient(to bottom, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
+}
