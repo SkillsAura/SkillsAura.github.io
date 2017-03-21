@@ -92,7 +92,6 @@ i.icon.icon-room {
 #chat .cm.message:nth-child(odd) {
 	background: rgba(8, 25, 69, 1);
 	box-shadow: inset 1px 1px 0 hsla(220,10%,5%,.8);
-	color: #ccc;
 }
 #chat .cm .delete-button {
 	border-radius: 4px;
@@ -113,6 +112,23 @@ i.icon.icon-room {
 }
 #chat {
     background: rgba(4,13, 36, 1);
+}
+
+/* Chat Hover */
+#chat-messages  .cm:not(.log):hover:hover {
+    transform: translate(5px);
+}
+#chat .cm.message:nth-child(odd) .cm:not(.log):hover:hover { 
+    transform: translate(5px);
+}
+#user-lists .list .user,
+#chat-messages .message,
+#chat-messages .cm,
+#chat .cm.message:nth-child(odd) {
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
 }
 /* Footer */
 
