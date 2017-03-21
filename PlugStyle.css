@@ -76,18 +76,17 @@ i.icon.icon-room {
     border-right: 1px solid rgb(0, 0, 0);
 }
 /* Chat Area */
-#chat-messages{
-         background: rgba(4,13, 36, 1);
+
+#chat-messages {
+         background: rgba(8, 25, 69, 1);
 }
 #room .app-right .cm.log {
          background: rgba(8, 25, 69, 1);
 }
 #chat .cm {
-	animation: fadein .2s;
-}
-#chat .cm {
 	background: rgba(4, 13, 36, 1);
 	box-shadow: inset 1px 1px 0 hsla(220,10%,20%,.8);
+	animation: fadein .2s;
 }
 #chat .cm.message:nth-child(odd) {
 	background: rgba(8, 25, 69, 1);
@@ -106,15 +105,15 @@ i.icon.icon-room {
 #room .app-right .cm.mention {
    background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%)
 }
+#chat {
+    background: rgba(4,13, 36, 1);
+}
 #chat-input {
     border-radius: 30px;
     background: rgba(8, 25, 69, 1) !important;
 }
-#chat {
-    background: rgba(4,13, 36, 1);
-}
-
 /* Chat Hover */
+
 #chat-messages  .cm:not(.log):hover:hover {
     transform: translate(5px);
 }
