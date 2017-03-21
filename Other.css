@@ -1,0 +1,43 @@
+/* Maddie */ 
+#user-rollover.id-20789834 .username,
+#chat [data-cid^="20789834-"] span.un.clickable,
+#user-rollover.id-5382369 .username,
+#chat [data-cid^="5382369-"] span.un.clickable {
+    color: rgb(255, 105, 180) !important;
+} 
+/* Thia_Fighter2 Event Winner Name*/
+#user-rollover.id-6455498.username,
+#chat [data-cid^="6455498-"] span.un.clickable {
+    color: rgb(0, 255, 255) !important;
+}
+/* Rainbow Hover Chat Name for Kaos*/
+
+#user-rollover.id-6068715 .username:hover,
+#chat [data-cid^="6068715-"] span.un.clickable:hover {
+animation:rainbow 1s infinite;
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+/*  Rainbow Chat Name For Kaos  */
+
+#user-rollover.id-6068715 .username,
+#chat [data-cid^="6068715-"] span.un.clickable{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
+    color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), 
+    color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
