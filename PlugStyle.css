@@ -130,6 +130,119 @@ i.icon.icon-room {
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
+/* Vote Buttons */
+
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background: transparent !important;
+}
+#woot {
+    border-radius: 50px 0 0 50px;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+#meh {
+    border-radius: 0 50px 50px 0;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+#woot,
+#grab,
+#meh {
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 0 !important;
+    background: linear-gradient(135deg, rgba(127, 127, 127, .15), rgba(76, 76, 76, .15)) !important;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
+}
+#woot.selected {
+    animation:woot 3s infinite;
+}
+#woot:hover {
+    background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes woot {
+    0% {background-color: #00ff00;}
+    50% {background-color: #008000;}
+   100% {background-color: #00ff00;}
+}
+#grab.selected {
+    animation:grab 3s infinite;
+}
+#grab:hover {
+     background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes grab {
+    0% {background-color: #9f1aff;}
+    50% {background-color: #3b0066;}
+    100% {background-color: #9f1aff;}
+}
+#meh.selected {
+   animation:meh 3s infinite;
+}
+#meh:hover {
+    background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+@keyframes meh {
+    0% {background-color: #ff0000;}
+    50% {background-color: #660000;}
+    100% {background-color: #ff0000;}
+}
+/* DJ join|leave|locked Buttons */
+
+#dj-button.is-wait,
+#dj-button.is-leave,
+#dj-button.is-locked,
+#dj-button.is-quit {
+    background: transparent !important;
+    border: 1px solid rgb(255, 255, 255) !important; 
+    box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
+}
+#dj-button.is-wait,
+#dj-button.is-wait .left,
+#dj-button.is-leave,
+#dj-button.is-leave .left, 
+#dj-button.is-locked,
+#dj-button.is-locked .left,
+#dj-button.is-quit,
+#dj-button.is-quit .left {
+    border-radius: 100px;
+}
+#dj-button .left {
+    border-right: 1px solid rgb(255, 255, 255)!important;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255) !important;
+}
+#dj-button.is-wait .left {
+     background: linear-gradient(to top, rgba(0, 128, 0,.75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+#dj-button.is-leave .left {
+      background: linear-gradient(to top, rgba(75, 0, 130, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+#dj-button.is-quit .left,
+#dj-button.is-locked .left {
+     background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
+}
+/* Scrollbars */
+
+#chat-messages::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar {
+    width: 7px!important;
+    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .5);
+}
+#chat-messages::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+.jspDrag {
+    background: rgba(4, 13, 36, 1);
+    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .2);
+    border-radius: 5px;
+}
 /* Footer */
 
 #footer {
