@@ -1,3 +1,13 @@
+/*  WarriorCatsRox [6432868] */
+
+#chat-messages .fromID-6432868 .badge-box i,
+#chat-messages .id-6432868 .badge-box i,
+#user-rollover.id-6432868 .badge-box > i.bdg,
+/*  ISwiftWTap [25081553] */
+
+#chat-messages .fromID-25081553 .badge-box i,
+#chat-messages .id-25081553 .badge-box i,
+#user-rollover.id-25081553 .badge-box > i.bdg,
 /*  z7 [6212535] */
 
 #chat-messages .fromID-6212535 .badge-box i,
@@ -94,6 +104,20 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/*  WarriorCatsRox [6432868] */
+
+#chat-messages .fromID-6432868 .badge-box i,
+#chat-messages .id-6432868 .badge-box i,
+#user-rollover.id-6432868 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/XEOnKCS.png);
+}
+/*  ISwiftWTap [25081553] */
+
+#chat-messages .fromID-25081553 .badge-box i,
+#chat-messages .id-25081553 .badge-box i,
+#user-rollover.id-25081553 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/PgrzfM1.jpg);
+}
 /*  z7 [6212535] */
 
 #chat-messages .fromID-6212535 .badge-box i,
