@@ -297,3 +297,133 @@ i.icon.icon-room {
 #footer {
     background: linear-gradient(to bottom, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
 }
+/* Community Settings Menu */
+
+#room-settings-menu {
+     background: rgba(4, 13, 36, 1);
+}
+#room-settings .general-settings {
+     background:  rgba(8, 25, 69, 1);
+     text-shadow: 1px -1px rgb(0, 0, 0);
+}
+/* History Menu */
+
+#history-panel {
+    background:  rgba(8, 25, 69, .75);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+/* Playlist Menu */
+
+#playlist-panel {
+    background:  rgba(8, 25, 69, 1);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+#playlist-menu .title {
+    color: rgb(255, 255, 255);
+}
+#playlist-menu,
+#search{
+    background: rgba(4, 13, 36, 1);
+}
+
+.media-list .selected .actions,
+.media-list .actions {
+    background: rgba(8, 25, 69, 1); !important;   
+}
+.menu .container .row:hover {
+    transform: translate(5px);    
+}
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon {
+    transform: scale(1.2);
+}
+.menu .container .row,
+.menu .container .row:hover,
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon,
+.media-list .actions .action.edit .icon, 
+.media-list .actions .action.related .icon,
+.media-list .actions .action.move-to-bottom .icon,
+.media-list .actions .action.move-to-top .icon,
+.media-list .actions .action.delete .icon,
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row:hover,
+.app-right .friends .list .row.is-offline:hover,
+#waitlist .list .user:hover{
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+}
+
+.media-list .row.selected {
+    background: rgba(8, 25, 69, 1);
+}
+#search-menu {
+    background: rgba(8, 25, 69, 1);
+}
+#search-menu:hover>.selected,
+#search-menu .select,
+#search-menu li.last {
+    background: rgba(8, 25, 69, 1);
+}
+#search-menu li:hover {
+    background: rgba(4, 13, 36, 1);
+}
+
+/* User List Hover */
+
+#user-lists .list .user:hover {
+background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%);
+transform: translate(5px);
+width: initial;
+top: 10px;
+}
+#user-lists .list .user {
+top: 10px;
+}
+#user-lists .list.staff .group{
+    background: rgba(8, 25, 69, .75) !important;   
+}
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+#filter-bar,
+#search-bar,
+#rcs-search {
+    background: rgba(8, 25, 69, 1) !important;
+}
+
+/* Dj Waitlist Tab */
+#waitlist .list .user {
+  background: rgb(4, 13, 36);
+}
+#waitlist .list .user:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
+/* Friends Tab */
+.app-right .friends .list-header,
+.app-right .friends .list .row {
+  background: rgb(4, 13, 36);
+}
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row.is-offline:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
