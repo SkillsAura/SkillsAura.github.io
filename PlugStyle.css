@@ -102,6 +102,17 @@ i.icon.icon-room {
 #room .app-right .cm.mention {
     background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%)
 }
+#rs-toggle-sidebar {
+  background: rgb(4, 13, 36)    
+  url(https://cdn.radiant.dj/rcs/icons/plugdj/arrowright.png) !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+/* Chat Hover Delete Buttons */
+
+.rcs-small-delete {
+  background: rgb(10, 33, 92) !important;
+}
 /* Chat Hover */
 
 #chat-messages  .cm:not(.log):hover:hover,
@@ -429,4 +440,28 @@ top: 10px;
 #search-bar,
 #rcs-search {
     background: rgba(8, 25, 69, 1) !important;
+}
+/* Toast Notifications */
+
+#toast-notifications .notification .left {
+   background: rgba(4, 13, 36, 1);
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
+
+#toast-notifications .notification .right {
+   background: rgba(8, 25, 69, 1);
+}
+/* Plug DJ Tab */
+
+#app-menu.open {
+  background: rgba(4, 13, 36, 1);
+}
+#app-menu.open .list { 
+  background: rgba(8, 25, 69, 1);
+}
+#app-menu.in-room .list .item:hover,
+#app-menu .list .rcsunload:hover,
+#app-menu .list .logout:hover {
+ background: rgba(4, 13, 36, 1) !important;
 }
