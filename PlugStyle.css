@@ -416,6 +416,10 @@ background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .7
   transform: translate(5px);
   background-color: rgb(4, 13, 36);
 }
+.jspContainer {
+   background: rgb(4, 13, 36);
+}
+
 /* User List Hover */
 
 #user-lists .list .user:hover {
