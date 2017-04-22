@@ -336,7 +336,7 @@ background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .7
     background: rgb(4, 13, 36); !important;   
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    right: -10px;
+    right: 10px;
 }
 .menu .container .row:hover {
     transform: translate(5px);    
