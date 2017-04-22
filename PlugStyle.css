@@ -470,3 +470,22 @@ top: 10px;
    background: linear-gradient(to right, rgb(0, 156, 221) 0, rgb(0, 179, 255) 100%);
    border-radius: 25px;
 }
+/* Woot | Grab | Meh Hover List */
+
+.votes-rs i {
+  margin-left: 30%;
+}
+.votes-rs .title.woot, 
+.votes-rs .title.grab,
+.votes-rs .title.meh {
+  background: rgba(4, 13, 36, .75) !important;
+}
+.votes-rs .voteslist {
+  background: rgba(8, 25, 69, .75);
+} 
+
+/* Chat Hover Delete Buttons */
+
+.rcs-small-delete {
+  background: rgb(10, 33, 92) !important;
+}
