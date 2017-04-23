@@ -99,7 +99,7 @@ i.icon.icon-room {
     background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%)
 }
 #rs-toggle-sidebar {
-  background: rgb(4, 13, 36)    
+  background: rgb(4, 13, 36) 
   url(https://cdn.radiant.dj/rcs/icons/plugdj/arrowright.png) !important;
   background-position-x: center !important;
   background-position-y: center !important;
@@ -219,7 +219,7 @@ i.icon.icon-room {
 @keyframes woot {
     0% {background-color: #00ff00;}
     50% {background-color: #008000;}
-   100% {background-color: #00ff00;}
+    100% {background-color: #00ff00;}
 }
 #grab.selected {
     animation:grab 3s infinite;
@@ -316,7 +316,7 @@ i.icon.icon-room {
 /* History Menu */
 
 #history-panel,
-.media-list.history .row{
+.media-list.history .row {
     background:  rgba(8, 25, 69, .9);
     text-shadow: 1px -1px rgb(0, 0, 0);
 }
@@ -384,7 +384,7 @@ background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .7
 .app-right .friends .list .row.clickable:hover,
 .app-right .friends .list .row:hover,
 .app-right .friends .list .row.is-offline:hover,
-#waitlist .list .user:hover{
+#waitlist .list .user:hover {
     -webkit-transition:     all 0.3s ease;
     -moz-transition:        all 0.3s ease;
     -o-transition:          all 0.3s ease;
@@ -442,7 +442,7 @@ top: 10px;
 #user-lists .list .user {
 top: 10px;
 }
-#user-lists .list.staff .group{
+#user-lists .list.staff .group {
     background: rgba(8, 25, 69, .75) !important;   
 }
 #user-lists .list-header .input-background,
@@ -503,7 +503,7 @@ top: 10px;
 
 #app .rs-dialog, .rs-dialog .dialog-body .content, 
 #dialog-playlist-rename .dialog-body,
-#dialog-playlist-delete .dialog-body.
+#dialog-playlist-delete .dialog-body,
 #dialog-media-update .dialog-body,
 #dialog-delete .dialog-body,
 #dialog-playlist-create .dialog-body  {
