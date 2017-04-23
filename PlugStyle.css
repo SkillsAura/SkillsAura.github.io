@@ -109,8 +109,32 @@ i.icon.icon-room {
 }
 /* History Menu */
 
-
-
+#history-panel .media-list .container {
+   background:  rgba(8, 25, 69, 1);
+}
+#history-panel .media-list.history .row.selected {
+   background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, 
+   .75) 100%);
+}
+#history-panel .media-list .row .actions,
+#history-panel .media-list .row.selected .actions {
+    background: rgb(4, 13, 36);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    top: 0px;
+    right: 0px;
+    height: 75px !important;
+}
+#history-panel .media-list .actions div i, .media-list.history .actions div i {
+  top: 25px ;
+  left: 20px;
+}
+.pop-menu .bar {
+    background: rgb(8, 25, 69);	 
+}
+.pop-menu ul {
+    background: rgb(4, 13, 36) !important;	
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Right Section  - - - - - - - - - - - - - - - - - - - - - - */
