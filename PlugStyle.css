@@ -506,7 +506,8 @@ top: 10px;
 #dialog-playlist-delete .dialog-body,
 #dialog-media-update .dialog-body,
 #dialog-delete .dialog-body,
-#dialog-playlist-create .dialog-body  {
+#dialog-playlist-create .dialog-body,
+#dialog-preview.youtube .dialog-body {
    background: rgb(8, 25, 69);
 }
 #dialog-media-update .swap,
