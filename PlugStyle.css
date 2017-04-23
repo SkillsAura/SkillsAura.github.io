@@ -1,15 +1,18 @@
-/* This section of code is due to be completely redone */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - Importing Other CSS Style Sheets - - - - - - - --  - - - - - - - - - - - - - - */
+
+
 @import url("https://SkillsAura.github.io/PlugUsers.css");
 @import url("https://SkillsAura.github.io/PlugStaff.css");
 @import url("https://SkillsAura.github.io/PlugUserIcons.css");
 @import url("https://SkillsAura.github.io/Other.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
-/* Room Background */
 
-#playback .background {
-    display: none !important;
-}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Section  - - -  - - - - - - - - - - - - - - - - - */
+
+
 /* Room Icon */
 
 #room-host,
@@ -29,6 +32,11 @@ i.icon.icon-room {
     width: 0px;
     height: 0px;
     background-size: 75%;
+}
+/* Room Background */
+
+#playback .background {
+    display: none !important;
 }
 /* App Header */
 
@@ -60,6 +68,11 @@ i.icon.icon-room {
     background: linear-gradient(to right, rgba(153, 50, 204, 1) 0, rgba(191, 95, 255, 1) 100%)!important;
     box-shadow: 0 0 10px rgba(200, 48, 2, 1) !important;
 }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Left Section  - - - - - - - - - - - - - - - - - - - - - - */
+
+
 /* App Header Buttons Selected */
 
 #users-button.header-panel-button.selected,
@@ -72,7 +85,93 @@ i.icon.icon-room {
     border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
 }
-/* Chat */
+/* Plug DJ far left tab */
+
+#app-menu.open {
+  background: rgba(4, 13, 36, 1);
+}
+#app-menu.open .list { 
+  background: rgba(8, 25, 69, 1);
+}
+#app-menu.in-room .list .item:hover,
+#app-menu .list .rcsunload:hover,
+#app-menu .list .logout:hover {
+ background: rgba(4, 13, 36, 1) !important;
+}
+/* Community Settings Menu */
+
+#room-settings-menu {
+     background: rgba(4, 13, 36, 1);
+}
+#room-settings .general-settings {
+     background:  rgba(8, 25, 69, 1);
+     text-shadow: 1px -1px rgb(0, 0, 0);
+}
+/* History Menu */
+
+#history-panel,
+.media-list.history .row {
+    background:  rgba(8, 25, 69, .9);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+.media-list.history .row.selected {
+background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .75) 100%);
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Right Section  - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* User List Hover (Peoples Tab) */
+
+#user-lists .list .user:hover {
+background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%);
+transform: translate(5px);
+width: initial;
+top: 10px;
+}
+#user-lists .list .user {
+top: 10px;
+}
+#user-lists .list.staff .group {
+    background: rgba(8, 25, 69, .75) !important;   
+}
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+#filter-bar,
+#search-bar,
+#rcs-search {
+    background: rgba(8, 25, 69, 1) !important;
+}
+/* Dj Waitlist Tab */
+
+#waitlist .list .user {
+  background: rgb(4, 13, 36);
+}
+#waitlist .list .user:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
+/* Friends Tab */
+.app-right .friends .list-header,
+.app-right .friends .list .row {
+  background: rgb(4, 13, 36);
+}
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row.is-offline:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
+.jspContainer {
+   background: rgb(4, 13, 36);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - Styling Chat Sections @ User Rollover  - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Chat Section */
 
 #room .app-right,
 #room .app-right .cm.log,
@@ -186,6 +285,10 @@ i.icon.icon-room {
 #user-rollover .actions .mod-ban:hover .icon-ban {
     transform: scale(1.2);   
 }
+
+/* - - - - - - - - - - - - - - - - - - -  Styling Vote | DJ Booth Buttons | Toast Notifications - - - - - - - - - - - - - - - - - - - */
+
+
 /* Vote Buttons */
 
 #woot .bottom,
@@ -243,6 +346,19 @@ i.icon.icon-room {
     50% {background-color: #660000;}
     100% {background-color: #ff0000;}
 }
+/* Woot | Grab | Meh Hover List */
+
+.votes-rs i {
+  margin-left: 30%;
+}
+.votes-rs .title.woot, 
+.votes-rs .title.grab,
+.votes-rs .title.meh {
+  background: rgba(4, 13, 36, .75) !important;
+}
+.votes-rs .voteslist {
+  background: rgba(8, 25, 69, .75);
+}
 /* DJ join|leave|locked Buttons */
 
 #dj-button.is-wait,
@@ -277,51 +393,36 @@ i.icon.icon-room {
 #dj-button.is-locked .left {
      background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
-/* Scrollbars */
+/* Toast Notifications */
 
-#chat-messages::-webkit-scrollbar,
-#grab-rs-list::-webkit-scrollbar,
-#meh-rs-list::-webkit-scrollbar,
-#woot-rs-list::-webkit-scrollbar,
-.dialog::-webkit-scrollbar,
-.dropdown dd::-webkit-scrollbar {
-    width: 7px!important;
-    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .5);
+#toast-notifications .notification .left {
+   background: rgba(4, 13, 36, 1);
 }
-#chat-messages::-webkit-scrollbar-thumb,
-#grab-rs-list::-webkit-scrollbar-thumb,
-#meh-rs-list::-webkit-scrollbar-thumb,
-#woot-rs-list::-webkit-scrollbar-thumb,
-.dialog::-webkit-thumb,
-.dropdown dd::-webkit-scrollbar-thumb,
-.jspDrag {
-    background: rgba(4, 13, 36, 1);
-    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .2);
-    border-radius: 5px;
+#toast-notifications .notification .right {
+   background: rgba(8, 25, 69, 1);
 }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Footer Section  -  - -- -  - - - - - - - - - - - - - - - - - */
+
+
 /* Footer */
 
 #footer {
     background: linear-gradient(to bottom, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
 }
-/* Community Settings Menu */
+/* User Info View */
 
-#room-settings-menu {
-     background: rgba(4, 13, 36, 1);
+#footer-user .info {
+   background: rgba(8, 25, 69, 1) !important;
 }
-#room-settings .general-settings {
-     background:  rgba(8, 25, 69, 1);
-     text-shadow: 1px -1px rgb(0, 0, 0);
+#footer-user .info .meta div.bar {
+  background: rgba(4, 13, 36, 1);
+  border-radius: 25px;
 }
-/* History Menu */
-
-#history-panel,
-.media-list.history .row {
-    background:  rgba(8, 25, 69, .9);
-    text-shadow: 1px -1px rgb(0, 0, 0);
-}
-.media-list.history .row.selected {
-background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .75) 100%);
+#footer-user .info .bar .progress {
+   background: linear-gradient(to right, rgb(0, 156, 221) 0, rgb(0, 179, 255) 100%);
+   border-radius: 25px;
 }
 /* Playlist Menu */
 
@@ -407,114 +508,34 @@ background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, .7
 #search-menu li.youtube:hover {
     background: rgba(4, 13, 36, 1);
 }
-/* Dj Waitlist Tab */
 
-#waitlist .list .user {
-  background: rgb(4, 13, 36);
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - Styling Room Scrollbars  - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Scrollbars */
+
+#chat-messages::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar {
+    width: 7px!important;
+    box-shadow: inset -1px 0 7px hsla(0, 0%, 0%, .5);
 }
-#waitlist .list .user:hover {
-  transform: translate(5px);
-  background-color: rgb(4, 13, 36);
+#chat-messages::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+.jspDrag {
+    background: rgba(4, 13, 36, 1);
+    box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .2);
+    border-radius: 5px;
 }
 
-/* Friends Tab */
-.app-right .friends .list-header,
-.app-right .friends .list .row {
-  background: rgb(4, 13, 36);
-}
-.app-right .friends .list .row.clickable:hover,
-.app-right .friends .list .row.is-offline:hover {
-  transform: translate(5px);
-  background-color: rgb(4, 13, 36);
-}
-.jspContainer {
-   background: rgb(4, 13, 36);
-}
 
-/* User List Hover */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - End of CSS Styling - - - - - - -  - - - - - - - - - - - - - - - - - - - - - */
 
-#user-lists .list .user:hover {
-background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%);
-transform: translate(5px);
-width: initial;
-top: 10px;
-}
-#user-lists .list .user {
-top: 10px;
-}
-#user-lists .list.staff .group {
-    background: rgba(8, 25, 69, .75) !important;   
-}
-#user-lists .list-header .input-background,
-.app-right .friends .list-header .input-background,
-#filter-bar,
-#search-bar,
-#rcs-search {
-    background: rgba(8, 25, 69, 1) !important;
-}
-/* Toast Notifications */
-
-#toast-notifications .notification .left {
-   background: rgba(4, 13, 36, 1);
-}
-#toast-notifications .notification .right {
-   background: rgba(8, 25, 69, 1);
-}
-/* Plug DJ Tab */
-
-#app-menu.open {
-  background: rgba(4, 13, 36, 1);
-}
-#app-menu.open .list { 
-  background: rgba(8, 25, 69, 1);
-}
-#app-menu.in-room .list .item:hover,
-#app-menu .list .rcsunload:hover,
-#app-menu .list .logout:hover {
- background: rgba(4, 13, 36, 1) !important;
-}
-/* User Info View */
-
-#footer-user .info {
-   background: rgba(8, 25, 69, 1) !important;
-}
-#footer-user .info .meta div.bar {
-  background: rgba(4, 13, 36, 1);
-  border-radius: 25px;
-}
-#footer-user .info .bar .progress {
-   background: linear-gradient(to right, rgb(0, 156, 221) 0, rgb(0, 179, 255) 100%);
-   border-radius: 25px;
-}
-/* Woot | Grab | Meh Hover List */
-
-.votes-rs i {
-  margin-left: 30%;
-}
-.votes-rs .title.woot, 
-.votes-rs .title.grab,
-.votes-rs .title.meh {
-  background: rgba(4, 13, 36, .75) !important;
-}
-.votes-rs .voteslist {
-  background: rgba(8, 25, 69, .75);
-} 
-/* Dialog Boxes */
-
-#app .rs-dialog, .rs-dialog .dialog-body .content, 
-#dialog-playlist-rename .dialog-body,
-#dialog-playlist-delete .dialog-body,
-#dialog-media-update .dialog-body,
-#dialog-delete .dialog-body,
-#dialog-playlist-create .dialog-body,
-#dialog-preview.youtube .dialog-body {
-   background: rgb(8, 25, 69);
-}
-#dialog-media-update .swap,
-#import-youtube .youtube-input,
-.dialog.no-submit .button.submit,
-#rs_change_customcss_txt.rsBAInput,
-.dialog-frame,
-.dialog-input-background {
-   background: rgb(4, 13, 36);
-}
