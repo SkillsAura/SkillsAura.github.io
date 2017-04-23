@@ -42,12 +42,12 @@
 /* Developer | Other Custom Icons Section */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
 
-.cm.id-22670452 .from  .icon-chat-dj:before {
+.cm.id-22670452 .from  .icon-chat-bouncer:before {
     content: url("https://i.imgur.com/1eYsr84.png") !important;
     right: 16px;
     position: absolute;
 }
-.cm.id-22670452 .from .icon-chat-dj {
+.cm.id-22670452 .from .icon-chat-bouncer {
     margin-left: 16px
 }
 
