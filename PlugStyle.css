@@ -443,7 +443,86 @@ top: 10px;
 }
 /* Playlist Menu */
 
-
+#playlist-panel,
+.media-list .container {
+    background:  rgba(8, 25, 69, 1);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+#playlist-menu .title {
+    color: rgb(255, 255, 255);
+}
+#media-panel .header,
+#playlist-menu,
+#search {
+    background: rgba(4, 13, 36, 1);   
+}
+.playlist-media .actions,
+.playlist-media .selected .actions,
+.media-list .actions,
+.media-list .selected .actions {
+   background: rgba(4, 13, 36, 1);   
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   height: 55px;
+}
+#playlist-menu .menu .row.selected,
+.media-list .row.selected,
+#search-suggestion li:hover {
+   background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 
+   1) 100%);
+}
+#search-suggestion li {
+   background:  rgba(8, 25, 69, 1);
+}
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon {
+    transform: scale(1.2);
+}
+.menu .container .row,
+.menu .container .row:hover,
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon,
+.media-list .actions .action.edit .icon, 
+.media-list .actions .action.related .icon,
+.media-list .actions .action.move-to-bottom .icon,
+.media-list .actions .action.move-to-top .icon,
+.media-list .actions .action.delete .icon,
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row:hover,
+.app-right .friends .list .row.is-offline:hover,
+#waitlist .list .user:hover {
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+}
+#search-menu,
+#search-menu:hover>.selected,
+#search-menu .select,
+#search-menu li.last,
+#search-menu li.youtube {
+    background: rgba(8, 25, 69, 1);
+}
+#search-menu li:hover,
+#search-menu li.youtube:hover {
+    background: rgba(4, 13, 36, 1);
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - Styling Room Scrollbars  - - - - - - - - - - - - - - - - - - - - - - - - - - */
