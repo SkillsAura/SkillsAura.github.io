@@ -41,7 +41,7 @@
 
 /* Developer | Other Custom Icons Section */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-
+/*
 .cm.id-22670452 .from  .icon-chat-bouncer:before {
     content: url("https://i.imgur.com/1eYsr84.png") !important;
     right: 16px;
@@ -50,12 +50,13 @@
 .cm.id-22670452 .from .icon-chat-bouncer {
     margin-left: 16px
 }
-
-/* WildFoxMan Birthday Icon */
-
+*/
+/* Birthday Icon */
+/*
 .cm.id-6708885 .from .un.clickable:after {
     content: url("https://i.imgur.com/sRoyIDN.gif") !important;
     top: 3px;
     right: -3px;
     position: relative;
 }
+*/
