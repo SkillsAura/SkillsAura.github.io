@@ -135,6 +135,10 @@ i.icon.icon-room {
 .pop-menu ul {
     background: rgb(4, 13, 36) !important;	
 }
+.media-list.history .meta .name,
+.media-list.history .meta .timestamp {
+   right: 50px;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Right Section  - - - - - - - - - - - - - - - - - - - - - - */
