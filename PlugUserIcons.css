@@ -60,3 +60,20 @@
     position: relative;
 }
 */
+
+/* Icon Testing */
+
+/*  WɪʟᴅFᴏxMᴀɴ [6708885] */
+.cm.id-6708885 .from .un.clickable:after {
+    content: url("https://i.imgur.com/yF825uS.png") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
+}
+/*  JᴏʀᴅᴀɴTʜᴇPᴀɴᴅᴀ [22670452] */
+.cm.id-22670452 .from .un.clickable:after {
+    content: url("https://i.imgur.com/yWgOR4j.png") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
+}
