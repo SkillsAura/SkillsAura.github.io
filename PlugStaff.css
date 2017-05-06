@@ -15,6 +15,45 @@
     font-weight: bold;
 }
 
+/* Host, Cohost, Manager, Bouncer, Res DJ, Subscribe | /me colours */
+
+#chat-messages>.emote.role-host {
+    color: #FF3D3F !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#chat-messages>.emote.role-cohost {
+    color: #FF4C42 !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#chat-messages>.emote.role-manager {
+    color: #FFB042 !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#chat-messages>.emote.role-bouncer {
+    color: #80A3DF !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#chat-messages>.emote.role-dj {
+    color: #A084CC !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#chat-messages>.emote.role-subscriber {
+    color: #C1C100;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
 /*
 #user-rollover.id-17969387 .username,
 #chat [data-cid^="17969387-"] span.un.clickable,
