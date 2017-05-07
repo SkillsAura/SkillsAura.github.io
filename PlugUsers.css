@@ -1,3 +1,8 @@
+/* NinjaPanda - Plug.Dj [16805665] */
+
+#chat-messages .fromID-16805665 .badge-box i,
+#chat-messages .id-16805665 .badge-box i,
+#user-rollover.id-16805665 .badge-box > i.bdg,
 /*  WarriorCatsRox [6432868] */
 
 #chat-messages .fromID-6432868 .badge-box i,
@@ -104,6 +109,13 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/* NinjaPanda - Plug.Dj [16805665] */
+
+#chat-messages .fromID-16805665 .badge-box i,
+#chat-messages .id-16805665 .badge-box i,
+#user-rollover.id-16805665 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/SMrNEwy.png);
+}
 /*  WarriorCatsRox [6432868] */
 
 #chat-messages .fromID-6432868 .badge-box i,
