@@ -62,3 +62,9 @@
     position: relative;
 }
 */
+.cm.id-5382369 .from .un.clickable:after {
+    content: url(https://i.imgur.com/ufbuDM4.png") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
+}
