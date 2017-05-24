@@ -77,3 +77,16 @@
     font-weight: bold;
 }
 */
+#user-rollover.id-5382369 .username,
+#chat [data-cid^="5382369-"] span.un.clickable {
+    color: rgb(89, 48, 1) !important;
+}
+#chat [data-cid^="5382369-"].emote {
+    color: rgb(89, 48, 1) !important;
+    border-left: rgb(89, 48, 1) 3px solid !important;
+}
+#chat [data-cid^="5382369-"].emote .text {
+    color: rgb(89, 48, 1) !important;
+    font-style: normal;
+    font-weight: bold;
+}
